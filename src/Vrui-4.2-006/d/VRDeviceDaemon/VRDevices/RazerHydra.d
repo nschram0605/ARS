@@ -1,0 +1,23 @@
+$(OBJDIR)/VRDeviceDaemon/VRDevices/RazerHydra.o: \
+ VRDeviceDaemon/VRDevices/RazerHydra.cpp  \
+ /home/nathan/src/Vrui-4.2-006/VRDeviceDaemon/VRDevices/RazerHydra.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/ReadBuffer.h  \
+ /home/nathan/src/Vrui-4.2-006/Misc/Endianness.h \
+ /home/nathan/src/Vrui-4.2-006/Threads/Thread.h \
+ /home/nathan/src/Vrui-4.2-006/USB/Device.h  \
+ /home/nathan/src/Vrui-4.2-006/USB/VendorProductId.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/SizedTypes.h \
+ /home/nathan/src/Vrui-4.2-006/USB/Context.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/Autopointer.h \
+ /home/nathan/src/Vrui-4.2-006/Threads/Mutex.h \
+ /home/nathan/src/Vrui-4.2-006/Threads/Config.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Point.h \
+ /home/nathan/src/Vrui-4.2-006/Math/Math.h  \
+ /home/nathan/src/Vrui-4.2-006/Geometry/ComponentArray.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Vector.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Rotation.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/HVector.h  \
+ /home/nathan/src/Vrui-4.2-006/Misc/ThrowStdErr.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/FunctionCalls.h \
+ /home/nathan/src/Vrui-4.2-006/USB/DeviceList.h \
+ /home/nathan/src/Vrui-4.2-006/USB/DeviceList.icpp

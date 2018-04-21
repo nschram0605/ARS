@@ -1,0 +1,21 @@
+$(OBJDIR)/Calibration/NaturalPointClient.o: \
+ Calibration/NaturalPointClient.cpp  \
+ Calibration/NaturalPointClient.h  \
+ /home/nathan/src/Vrui-4.5-001/Threads/Thread.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/MutexCond.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/Time.h  \
+ /home/nathan/src/Vrui-4.5-001/Threads/Config.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/TripleBuffer.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/SizedTypes.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/Atomic.h \
+ /home/nathan/src/Vrui-4.5-001/Comm/UDPSocket.h \
+ /home/nathan/src/Vrui-4.5-001/Geometry/Point.h \
+ /home/nathan/src/Vrui-4.5-001/Math/Math.h  \
+ /home/nathan/src/Vrui-4.5-001/Geometry/ComponentArray.h \
+ /home/nathan/src/Vrui-4.5-001/Geometry/Vector.h \
+ /home/nathan/src/Vrui-4.5-001/Geometry/Rotation.h \
+ /home/nathan/src/Vrui-4.5-001/Geometry/HVector.h \
+ Calibration/PacketBuffer.h  \
+ /home/nathan/src/Vrui-4.5-001/Misc/Endianness.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ThrowStdErr.h  \
+ /home/nathan/src/Vrui-4.5-001/Misc/FunctionCalls.h

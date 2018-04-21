@@ -1,0 +1,24 @@
+$(OBJDIR)/Vrui/Internal/ImageSequenceMovieSaver.o: \
+ Vrui/Internal/ImageSequenceMovieSaver.cpp  \
+ /home/nathan/src/Vrui-4.5-001/Vrui/Internal/ImageSequenceMovieSaver.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/MutexCond.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/Time.h  \
+ /home/nathan/src/Vrui-4.5-001/Threads/Config.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/Thread.h \
+ /home/nathan/src/Vrui-4.5-001/Vrui/Internal/MovieSaver.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/TripleBuffer.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/SizedTypes.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/Atomic.h  \
+ /home/nathan/src/Vrui-4.5-001/Misc/ThrowStdErr.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/StandardValueCoders.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ValueCoder.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ConfigurationFile.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ConfigurationFile.icpp \
+ /home/nathan/src/Vrui-4.5-001/Misc/StringMarshaller.h \
+ /home/nathan/src/Vrui-4.5-001/Images/WriteImageFile.h \
+ /home/nathan/src/Vrui-4.5-001/Images/RGBImage.h  \
+ /home/nathan/src/Vrui-4.5-001/Images/Image.h \
+ /home/nathan/src/Vrui-4.5-001/GL/GLScalarLimits.h \
+ /home/nathan/src/Vrui-4.5-001/Math/Math.h  \
+ /home/nathan/src/Vrui-4.5-001/GL/GLColor.h \
+ /home/nathan/src/Vrui-4.5-001/Images/BaseImage.h

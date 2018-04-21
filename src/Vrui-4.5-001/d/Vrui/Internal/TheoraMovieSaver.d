@@ -1,0 +1,35 @@
+$(OBJDIR)/Vrui/Internal/TheoraMovieSaver.o: \
+ Vrui/Internal/TheoraMovieSaver.cpp  \
+ /home/nathan/src/Vrui-4.5-001/Vrui/Internal/TheoraMovieSaver.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/MutexCond.h  \
+ /home/nathan/src/Vrui-4.5-001/Misc/Time.h  \
+ /home/nathan/src/Vrui-4.5-001/Threads/Config.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/Thread.h \
+ /home/nathan/src/Vrui-4.5-001/IO/File.h  \
+ /home/nathan/src/Vrui-4.5-001/Misc/Endianness.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/Autopointer.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/RefCounted.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/Atomic.h \
+ /home/nathan/src/Vrui-4.5-001/Video/OggStream.h  \
+ /home/nathan/src/Vrui-4.5-001/Video/TheoraFrame.h \
+ /home/nathan/src/Vrui-4.5-001/Video/TheoraEncoder.h \
+ /home/nathan/src/Vrui-4.5-001/Video/TheoraPacket.h \
+ /home/nathan/src/Vrui-4.5-001/Vrui/Internal/MovieSaver.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/TripleBuffer.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/SizedTypes.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ThrowStdErr.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/StandardValueCoders.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ValueCoder.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ConfigurationFile.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ConfigurationFile.icpp \
+ /home/nathan/src/Vrui-4.5-001/Misc/StringMarshaller.h \
+ /home/nathan/src/Vrui-4.5-001/IO/OpenFile.h \
+ /home/nathan/src/Vrui-4.5-001/IO/SeekableFile.h \
+ /home/nathan/src/Vrui-4.5-001/IO/Directory.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/FileTests.h \
+ /home/nathan/src/Vrui-4.5-001/Video/FrameBuffer.h \
+ /home/nathan/src/Vrui-4.5-001/Video/ImageExtractorRGB8.h \
+ /home/nathan/src/Vrui-4.5-001/Video/ImageExtractor.h \
+ /home/nathan/src/Vrui-4.5-001/Video/OggPage.h \
+ /home/nathan/src/Vrui-4.5-001/Video/TheoraInfo.h \
+ /home/nathan/src/Vrui-4.5-001/Video/TheoraComment.h

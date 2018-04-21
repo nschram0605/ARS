@@ -1,0 +1,31 @@
+$(OBJDIR)/Geometry/GeoCoordinateSystem.o: \
+ Geometry/GeoCoordinateSystem.cpp  \
+ /home/nathan/src/Vrui-4.2-006/Geometry/GeoCoordinateSystem.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/Autopointer.h \
+ /home/nathan/src/Vrui-4.2-006/Threads/RefCounted.h \
+ /home/nathan/src/Vrui-4.2-006/Threads/Atomic.h  \
+ /home/nathan/src/Vrui-4.2-006/Threads/Config.h \
+ /home/nathan/src/Vrui-4.2-006/IO/Directory.h  \
+ /home/nathan/src/Vrui-4.2-006/Misc/FileTests.h \
+ /home/nathan/src/Vrui-4.2-006/IO/File.h  \
+ /home/nathan/src/Vrui-4.2-006/Misc/Endianness.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Point.h \
+ /home/nathan/src/Vrui-4.2-006/Math/Math.h  \
+ /home/nathan/src/Vrui-4.2-006/Geometry/ComponentArray.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Vector.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Box.h  \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Ray.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/SolidHitResult.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/HitResult.h \
+ /home/nathan/src/Vrui-4.2-006/Math/Constants.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/SelfDestructPointer.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/ThrowStdErr.h \
+ /home/nathan/src/Vrui-4.2-006/IO/ValueSource.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Geoid.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Matrix.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/HVector.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Rotation.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/OrthonormalTransformation.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/AlbersEqualAreaProjection.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/LambertConformalProjection.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/TransverseMercatorProjection.h

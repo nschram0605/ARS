@@ -1,0 +1,23 @@
+$(OBJDIR)/Calibration/NaturalPointClient.o: \
+ Calibration/NaturalPointClient.cpp  \
+ Calibration/NaturalPointClient.h  \
+ /home/nathan/src/Vrui-4.2-006/Threads/Thread.h \
+ /home/nathan/src/Vrui-4.2-006/Threads/MutexCond.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/Time.h  \
+ /home/nathan/src/Vrui-4.2-006/Threads/Config.h \
+ /home/nathan/src/Vrui-4.2-006/Threads/TripleBuffer.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/SizedTypes.h \
+ /home/nathan/src/Vrui-4.2-006/Threads/Atomic.h \
+ /home/nathan/src/Vrui-4.2-006/Comm/UDPSocket.h \
+ /home/nathan/src/Vrui-4.2-006/Comm/IPv4SocketAddress.h \
+ /home/nathan/src/Vrui-4.2-006/Comm/IPv4Address.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Point.h \
+ /home/nathan/src/Vrui-4.2-006/Math/Math.h  \
+ /home/nathan/src/Vrui-4.2-006/Geometry/ComponentArray.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Vector.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/Rotation.h \
+ /home/nathan/src/Vrui-4.2-006/Geometry/HVector.h \
+ Calibration/PacketBuffer.h  \
+ /home/nathan/src/Vrui-4.2-006/Misc/Endianness.h \
+ /home/nathan/src/Vrui-4.2-006/Misc/ThrowStdErr.h  \
+ /home/nathan/src/Vrui-4.2-006/Misc/FunctionCalls.h

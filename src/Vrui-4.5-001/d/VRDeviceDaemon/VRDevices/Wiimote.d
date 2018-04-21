@@ -1,0 +1,24 @@
+$(OBJDIR)/VRDeviceDaemon/VRDevices/Wiimote.o: \
+ VRDeviceDaemon/VRDevices/Wiimote.cpp  \
+ /home/nathan/src/Vrui-4.5-001/VRDeviceDaemon/VRDevices/Wiimote.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/CallbackData.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/CallbackList.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/Mutex.h  \
+ /home/nathan/src/Vrui-4.5-001/Threads/Config.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/Cond.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/Time.h  \
+ /home/nathan/src/Vrui-4.5-001/Threads/MutexCond.h \
+ /home/nathan/src/Vrui-4.5-001/Threads/Thread.h \
+ /home/nathan/src/Vrui-4.5-001/Math/BrokenLine.h \
+ /home/nathan/src/Vrui-4.5-001/Math/Math.h  \
+ /home/nathan/src/Vrui-4.5-001/Geometry/Vector.h \
+ /home/nathan/src/Vrui-4.5-001/Geometry/ComponentArray.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ThrowStdErr.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/StandardValueCoders.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ValueCoder.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/CompoundValueCoders.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/CompoundValueCoders.icpp \
+ /home/nathan/src/Vrui-4.5-001/Misc/ConfigurationFile.h \
+ /home/nathan/src/Vrui-4.5-001/Misc/ConfigurationFile.icpp \
+ /home/nathan/src/Vrui-4.5-001/Misc/StringMarshaller.h \
+ /home/nathan/src/Vrui-4.5-001/Math/MathValueCoders.h
