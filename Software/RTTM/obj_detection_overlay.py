@@ -98,14 +98,32 @@ def get_centerpoint_location_for_plotting(location):
 def plot_detection_circle(x, y, circle_radius):
 
     print ("X: ", x, " Y: ", y)
+
+    circle1 = plt.Circle((x, y), circle_radius, color='red')
+
+    fig, ax = plt.subplots()  # note we must use plt.subplots, not plt.subplot
+
+    # for existing figure
+    # plt.gcf().gca().add_artist(circle1)
+    # (or if you have an existing figure)
+    # fig = plt.gcf()
+    # ax = fig.gca()
+    plt.grid(True)
+    plt.figure(figsize=(x, y))
+    ax.add_artist(circle1)
+
+    plt.show()
+    #fig.savefig('plotcircles.png')
+
+
     #plt.figure()
     #ax1 = fig1.add_subplot(111, aspect='equal')
 
-
-    circle = plt.Circle((x, y), radius=circle_radius, color='red', fill=False)
-    fig, ax = plt.subplots()
-    ax.add_artist(circle)
-    plt.show()
+    #circle = plt.Circle((0.5, 0.5), radius=circle_radius, color='red', fill=False)
+    #circle = plt.Circle((x, y), radius=circle_radius, color='red', fill=False)
+    #fig, ax = plt.subplots()
+    #ax.add_artist(circle)
+    #plt.show()
     #ax = plt.gca()
     #ax.cla()
     #ax.add_artist(circle)
