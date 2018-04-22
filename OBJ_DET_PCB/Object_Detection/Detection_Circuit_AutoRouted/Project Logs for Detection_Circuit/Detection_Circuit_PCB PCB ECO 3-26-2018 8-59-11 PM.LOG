@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=MCU_1 Pin=TERM1-1
+Removed Pin From Net: NetName=FEEDBACK_1 Pin=TERM1-2
+Removed Pin From Net: NetName=MCU_7 Pin=TERM2-1
+Removed Pin From Net: NetName=FEEDBACK_7 Pin=TERM2-2
+Removed Pin From Net: NetName=MCU_8 Pin=TERM2-3
+Removed Pin From Net: NetName=FEEDBACK_8 Pin=TERM2-4
+Removed Pin From Net: NetName=MCU_9 Pin=TERM2-5
+Removed Pin From Net: NetName=FEEDBACK_9 Pin=TERM2-6
+Removed Pin From Net: NetName=MCU_10 Pin=TERM2-7
+Removed Pin From Net: NetName=FEEDBACK_10 Pin=TERM2-8
+Removed Pin From Net: NetName=MCU_11 Pin=TERM2-9
+Removed Pin From Net: NetName=FEEDBACK_11 Pin=TERM2-10
+Removed Pin From Net: NetName=MCU_12 Pin=TERM2-11
+Removed Pin From Net: NetName=FEEDBACK_12 Pin=TERM2-12
+Removed Pin From Net: NetName=MCU Pin=TERM3-1
+Removed Pin From Net: NetName=GND Pin=TERM3-2
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM1
+Change Component DesignItemId : Designator=TERM3 Old DesignItemId=282834-2 New DesignItemId=1935268
+Change Component DesignItemId : Designator=TERM1 Old DesignItemId=1935268 New DesignItemId=282834-2
+Change Component Footprint: Designator=TERM3 Old Footprint=282834-2 New Footprint=1935268
+Change Component Footprint: Designator=TERM1 Old Footprint=1935268 New Footprint=282834-2
+Change Component Comment : Designator=TERM3 Old Comment=282834-2 New Comment=1935268
+Change Component Comment : Designator=TERM1 Old Comment=1935268 New Comment=282834-2
+Added Component: Designator=TERM3(282834-2)
+Added Pin To Net: NetName=MCU_1 Pin=TERM2-1
+Added Pin To Net: NetName=FEEDBACK_1 Pin=TERM2-2
+Added Pin To Net: NetName=MCU_2 Pin=TERM2-3
+Added Pin To Net: NetName=FEEDBACK_2 Pin=TERM2-4
+Added Pin To Net: NetName=MCU_3 Pin=TERM2-5
+Added Pin To Net: NetName=FEEDBACK_3 Pin=TERM2-6
+Added Pin To Net: NetName=MCU_4 Pin=TERM2-7
+Added Pin To Net: NetName=FEEDBACK_4 Pin=TERM2-8
+Added Pin To Net: NetName=MCU_5 Pin=TERM2-9
+Added Pin To Net: NetName=FEEDBACK_5 Pin=TERM2-10
+Added Pin To Net: NetName=MCU_6 Pin=TERM2-11
+Added Pin To Net: NetName=FEEDBACK_6 Pin=TERM2-12
+Added Pin To Net: NetName=MCU_7 Pin=TERM3-1
+Added Pin To Net: NetName=MCU Pin=TERM3-1
+Added Pin To Net: NetName=FEEDBACK_7 Pin=TERM3-2
+Added Pin To Net: NetName=GND Pin=TERM3-2
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TERM3 1935268

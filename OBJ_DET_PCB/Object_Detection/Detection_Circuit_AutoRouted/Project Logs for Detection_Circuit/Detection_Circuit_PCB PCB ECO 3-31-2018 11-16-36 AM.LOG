@@ -1,0 +1,6 @@
+Added Component: Designator=FID4(Fiducial)
+Added Component: Designator=FID5(Fiducial)
+Added Component: Designator=FID6(Fiducial)
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component FID4 Fiducial
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component FID5 Fiducial
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component FID6 Fiducial

@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=GND Pin=PC_TP_GND1-1
+Removed Pin From Net: NetName=VCC Pin=PC_TP_VCC1-1
+Removed Pin From Net: NetName=GND Pin=TERM3-2
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_01 Member=PC_TP_GND1
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_01 Member=PC_TP_VCC1
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_01 Member=TERM3
+Added Component: Designator=TERM?(1935268)
+Added Pin To Net: NetName=GND Pin=TERM?-1
+Added Pin To Net: NetName=MCU_1 Pin=TERM?-1
+Added Pin To Net: NetName=GND Pin=TERM?-2
+Added Pin To Net: NetName=MCU_2 Pin=TERM?-2
+Added Pin To Net: NetName=MCU_3 Pin=TERM?-3
+Added Pin To Net: NetName=MCU_4 Pin=TERM?-4
+Added Pin To Net: NetName=MCU_5 Pin=TERM?-5
+Added Pin To Net: NetName=MCU_6 Pin=TERM?-6
+Added Pin To Net: NetName=MCU_7 Pin=TERM?-7
+Added Pin To Net: NetName=MCU_8 Pin=TERM?-8
+Added Pin To Net: NetName=MCU_9 Pin=TERM?-9
+Added Pin To Net: NetName=MCU_10 Pin=TERM?-10
+Added Pin To Net: NetName=MCU_11 Pin=TERM?-11
+Added Pin To Net: NetName=MCU_12 Pin=TERM?-12
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TERM? 1935161
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TERM? 1935268

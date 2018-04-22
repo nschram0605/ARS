@@ -1,0 +1,42 @@
+Altium Designer Pick and Place Locations
+F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\Pick Place\Pick Place for Detection_Circuit_PCB.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       03/02/18
+Time:       20:36
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment           Layer    Footprint         Center-X(mil) Center-Y(mil) Rotation Description                     
+PC_TP_VCC1 PC Test Point VCC TopLayer PC_Test_Point_VCC 1370.000      962.320       90       TEST POINT PC MINI .040"D RED   
+PC_TP_GND1 PC Test Point GND TopLayer PC_Test_Point_GND 740.000       225.000       90       TEST POINT PC MINI .040"D BLACK 
+C1         100UF             TopLayer C1210_M           860.370       429.000       180      CAP CER 100UF 16V X5R 1210      
+C3         100UF             TopLayer C1210_M           820.000       830.000       180      CAP CER 100UF 16V X5R 1210      
+C4         1UF               TopLayer 6-0805_M          486.370       1077.000      180      CAP CER 1UF 16V X7R 0805        
+C5         1UF               TopLayer 6-0805_M          842.370       1077.000      180      CAP CER 1UF 16V X7R 0805        
+D1         LTST-C171GKT      TopLayer 6-0805_M          1099.630      650.118       0        Typical BLUE SiC LED            
+FID1       Fiducial          TopLayer Fiducial          50.000        1450.000      90       Fiducial                        
+FID2       Fiducial          TopLayer Fiducial          50.000        50.000        90       Fiducial                        
+FID3       Fiducial          TopLayer Fiducial          1450.000      50.000        90       Fiducial                        
+MH1        #6 MH             TopLayer #6_MH             225.000       1275.000      0        #6 Mounting Hole                
+MH2        #6 MH             TopLayer #6_MH             1275.000      1275.000      0        #6 Mounting Hole                
+MH3        #6 MH             TopLayer #6_MH             225.000       225.000       0        #6 Mounting Hole                
+MH4        #6 MH             TopLayer #6_MH             1275.000      225.000       0        #6 Mounting Hole                
+R1         39K               TopLayer 6-0805_M          407.244       429.000       180      RES SMD 39K OHM 0.5% 1/4W 0805  
+R2         2.2K              TopLayer 6-0805_M          352.315       578.000       180      RES SMD 2.2K OHM 0.5% 1/4W 0805 
+R3         10K               TopLayer 6-0805_M          659.370       389.630       90       RES SMD 10K OHM 1% 1/4W 0805    
+R4         470               TopLayer 6-0805_M          636.370       869.945       270      RES SMD 470 OHM 0.5% 1/4W 0805  
+R5         1K                TopLayer 6-0805_M          1099.630      750.118       0        RES SMD 1K OHM 1% 1/4W 0805     
+TERM1      282834-2          TopLayer 282834-2          950.000       1370.000      0        TERM BLOCK 2POS SIDE ENT 2.54MM 
+TERM2      282834-2          TopLayer 282834-2          1370.000      700.000       270      TERM BLOCK 2POS SIDE ENT 2.54MM 
+TP1        TestPoint         TopLayer TestPoint         122.000       981.000       0        Test Point                      
+TP2        TestPoint         TopLayer TestPoint         1040.000      1077.000      0        Test Point                      
+TP_B       TestPoint         TopLayer TestPoint         661.000       640.000       90       Test Point                      
+TP_E       TestPoint         TopLayer TestPoint         665.000       1077.000      90       Test Point                      
+TP_C       TestPoint         TopLayer TestPoint         175.000       771.000       90       Test Point                      
+TERM3      282834-2          TopLayer 282834-2          575.000       1370.000      0        TERM BLOCK 2POS SIDE ENT 2.54MM 
+Q1         DXT3904           TopLayer DXT3904-13        502.520       771.000       90       TRANS NPN 40V 0.2A SOT89-3      
+R*         0                 TopLayer 6-0805_M          296.000       942.000       90       RES SMD 0 OHM JUMPER 1/8W 0805  

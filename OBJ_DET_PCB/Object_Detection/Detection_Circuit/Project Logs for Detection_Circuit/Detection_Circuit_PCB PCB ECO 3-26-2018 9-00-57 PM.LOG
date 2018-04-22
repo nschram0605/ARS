@@ -1,0 +1,738 @@
+Added Component: Designator=C1(C1210_M)
+Added Component: Designator=C2(6-0805_N)
+Added Component: Designator=C3(C1210_M)
+Added Component: Designator=C4(6-0805_N)
+Added Component: Designator=C5(C1210_M)
+Added Component: Designator=C6(C1210_M)
+Added Component: Designator=C7(C1210_M)
+Added Component: Designator=C8(C1210_M)
+Added Component: Designator=C9(6-0805_N)
+Added Component: Designator=C10(6-0805_N)
+Added Component: Designator=C11(6-0805_N)
+Added Component: Designator=C12(6-0805_N)
+Added Component: Designator=C13(C1210_M)
+Added Component: Designator=C14(C1210_M)
+Added Component: Designator=C15(C1210_M)
+Added Component: Designator=C16(6-0805_N)
+Added Component: Designator=C17(C1210_M)
+Added Component: Designator=C18(6-0805_N)
+Added Component: Designator=C19(6-0805_N)
+Added Component: Designator=C20(6-0805_N)
+Added Component: Designator=C21(C1210_M)
+Added Component: Designator=C22(C1210_M)
+Added Component: Designator=C23(C1210_M)
+Added Component: Designator=C24(C1210_M)
+Added Component: Designator=C25(6-0805_N)
+Added Component: Designator=C26(6-0805_N)
+Added Component: Designator=C27(6-0805_N)
+Added Component: Designator=C28(6-0805_N)
+Added Component: Designator=C29(C1210_M)
+Added Component: Designator=C30(C1210_M)
+Added Component: Designator=C31(C1210_M)
+Added Component: Designator=C32(6-0805_N)
+Added Component: Designator=C33(C1210_M)
+Added Component: Designator=C34(6-0805_N)
+Added Component: Designator=C35(6-0805_N)
+Added Component: Designator=C36(6-0805_N)
+Added Component: Designator=C37(C1210_M)
+Added Component: Designator=C38(C1210_M)
+Added Component: Designator=C39(C1210_M)
+Added Component: Designator=C40(6-0805_N)
+Added Component: Designator=C41(6-0805_N)
+Added Component: Designator=C42(6-0805_N)
+Added Component: Designator=C43(C1210_M)
+Added Component: Designator=C44(C1210_M)
+Added Component: Designator=C45(C1210_M)
+Added Component: Designator=C46(6-0805_N)
+Added Component: Designator=C47(6-0805_N)
+Added Component: Designator=C48(6-0805_N)
+Added Component: Designator=D1(6-0805_M)
+Added Component: Designator=FID1(Fiducial)
+Added Component: Designator=FID3(Fiducial)
+Added Component: Designator=MH1(#6_MH)
+Added Component: Designator=MH2(#6_MH)
+Added Component: Designator=MH3(#6_MH)
+Added Component: Designator=MH4(#6_MH)
+Added Component: Designator=PC_TP_GND1(PC Test Point GND)
+Added Component: Designator=PC_TP_VCC1(PC Test Point VCC)
+Added Component: Designator=Q1(DXT3904-13)
+Added Component: Designator=Q2(DXT3904-13)
+Added Component: Designator=Q3(DXT3904-13)
+Added Component: Designator=Q4(DXT3904-13)
+Added Component: Designator=Q5(DXT3904-13)
+Added Component: Designator=Q6(DXT3904-13)
+Added Component: Designator=Q7(DXT3904-13)
+Added Component: Designator=Q8(DXT3904-13)
+Added Component: Designator=Q9(DXT3904-13)
+Added Component: Designator=Q10(DXT3904-13)
+Added Component: Designator=Q11(DXT3904-13)
+Added Component: Designator=Q12(DXT3904-13)
+Added Component: Designator=R1(6-0805_M)
+Added Component: Designator=R2(6-0805_M)
+Added Component: Designator=R3(6-0805_M)
+Added Component: Designator=R4(6-0805_M)
+Added Component: Designator=R5(6-0805_M)
+Added Component: Designator=R6(6-0805_M)
+Added Component: Designator=R7(6-0805_M)
+Added Component: Designator=R8(6-0805_M)
+Added Component: Designator=R9(6-0805_M)
+Added Component: Designator=R10(6-0805_M)
+Added Component: Designator=R11(6-0805_M)
+Added Component: Designator=R12(6-0805_M)
+Added Component: Designator=R13(6-0805_M)
+Added Component: Designator=R14(6-0805_M)
+Added Component: Designator=R15(6-0805_M)
+Added Component: Designator=R16(6-0805_M)
+Added Component: Designator=R17(6-0805_M)
+Added Component: Designator=R18(6-0805_M)
+Added Component: Designator=R19(6-0805_M)
+Added Component: Designator=R20(6-0805_M)
+Added Component: Designator=R21(6-0805_M)
+Added Component: Designator=R22(6-0805_M)
+Added Component: Designator=R23(6-0805_M)
+Added Component: Designator=R24(6-0805_M)
+Added Component: Designator=R25(6-0805_M)
+Added Component: Designator=R26(6-0805_M)
+Added Component: Designator=R27(6-0805_M)
+Added Component: Designator=R28(6-0805_M)
+Added Component: Designator=R29(6-0805_M)
+Added Component: Designator=R30(6-0805_M)
+Added Component: Designator=R31(6-0805_M)
+Added Component: Designator=R32(6-0805_M)
+Added Component: Designator=R33(6-0805_M)
+Added Component: Designator=R34(6-0805_M)
+Added Component: Designator=R35(6-0805_M)
+Added Component: Designator=R36(6-0805_M)
+Added Component: Designator=R37(6-0805_M)
+Added Component: Designator=R38(6-0805_M)
+Added Component: Designator=R39(6-0805_M)
+Added Component: Designator=R40(6-0805_M)
+Added Component: Designator=R41(6-0805_M)
+Added Component: Designator=R42(6-0805_M)
+Added Component: Designator=R43(6-0805_M)
+Added Component: Designator=R44(6-0805_M)
+Added Component: Designator=R45(6-0805_M)
+Added Component: Designator=R46(6-0805_M)
+Added Component: Designator=R47(6-0805_M)
+Added Component: Designator=R48(6-0805_M)
+Added Component: Designator=R49(6-0805_M)
+Added Component: Designator=R*1(6-0805_M)
+Added Component: Designator=R*2(6-0805_M)
+Added Component: Designator=R*3(6-0805_M)
+Added Component: Designator=R*4(6-0805_M)
+Added Component: Designator=R*5(6-0805_M)
+Added Component: Designator=R*6(6-0805_M)
+Added Component: Designator=R*7(6-0805_M)
+Added Component: Designator=R*8(6-0805_M)
+Added Component: Designator=R*9(6-0805_M)
+Added Component: Designator=R*10(6-0805_M)
+Added Component: Designator=R*11(6-0805_M)
+Added Component: Designator=R*12(6-0805_M)
+Added Component: Designator=TERM1(282834-2)
+Added Component: Designator=TERM2(1935268)
+Added Component: Designator=TERM3(1935268)
+Added Component: Designator=TERM3(282834-2)
+Added Component: Designator=TP1(TestPoint)
+Added Component: Designator=TP2(TestPoint)
+Added Component: Designator=TP3(TestPoint)
+Added Component: Designator=TP4(TestPoint)
+Added Component: Designator=TP5(TestPoint)
+Added Component: Designator=TP6(TestPoint)
+Added Component: Designator=TP7(TestPoint)
+Added Component: Designator=TP8(TestPoint)
+Added Component: Designator=TP9(TestPoint)
+Added Component: Designator=TP10(TestPoint)
+Added Component: Designator=TP11(TestPoint)
+Added Component: Designator=TP12(TestPoint)
+Added Component: Designator=TP13(TestPoint)
+Added Component: Designator=TP14(TestPoint)
+Added Component: Designator=TP15(TestPoint)
+Added Component: Designator=TP16(TestPoint)
+Added Component: Designator=TP17(TestPoint)
+Added Component: Designator=TP18(TestPoint)
+Added Component: Designator=TP19(TestPoint)
+Added Component: Designator=TP20(TestPoint)
+Added Component: Designator=TP21(TestPoint)
+Added Component: Designator=TP22(TestPoint)
+Added Component: Designator=TP23(TestPoint)
+Added Component: Designator=TP24(TestPoint)
+Added Component: Designator=TP_B1(TestPoint)
+Added Component: Designator=TP_B2(TestPoint)
+Added Component: Designator=TP_B3(TestPoint)
+Added Component: Designator=TP_B4(TestPoint)
+Added Component: Designator=TP_B5(TestPoint)
+Added Component: Designator=TP_B6(TestPoint)
+Added Component: Designator=TP_B7(TestPoint)
+Added Component: Designator=TP_B8(TestPoint)
+Added Component: Designator=TP_B9(TestPoint)
+Added Component: Designator=TP_B10(TestPoint)
+Added Component: Designator=TP_B11(TestPoint)
+Added Component: Designator=TP_B12(TestPoint)
+Added Component: Designator=TP_C1(TestPoint)
+Added Component: Designator=TP_C2(TestPoint)
+Added Component: Designator=TP_C3(TestPoint)
+Added Component: Designator=TP_C4(TestPoint)
+Added Component: Designator=TP_C5(TestPoint)
+Added Component: Designator=TP_C6(TestPoint)
+Added Component: Designator=TP_C7(TestPoint)
+Added Component: Designator=TP_C8(TestPoint)
+Added Component: Designator=TP_C9(TestPoint)
+Added Component: Designator=TP_C10(TestPoint)
+Added Component: Designator=TP_C11(TestPoint)
+Added Component: Designator=TP_C12(TestPoint)
+Added Component: Designator=TP_E1(TestPoint)
+Added Component: Designator=TP_E2(TestPoint)
+Added Component: Designator=TP_E3(TestPoint)
+Added Component: Designator=TP_E4(TestPoint)
+Added Component: Designator=TP_E5(TestPoint)
+Added Component: Designator=TP_E6(TestPoint)
+Added Component: Designator=TP_E7(TestPoint)
+Added Component: Designator=TP_E8(TestPoint)
+Added Component: Designator=TP_E9(TestPoint)
+Added Component: Designator=TP_E10(TestPoint)
+Added Component: Designator=TP_E11(TestPoint)
+Added Component: Designator=TP_E12(TestPoint)
+Added Pin To Net: NetName=FEEDBACK_1 Pin=C1-1
+Added Pin To Net: NetName=BASE_1 Pin=C1-2
+Added Pin To Net: NetName=EMITTER_1 Pin=C2-1
+Added Pin To Net: NetName=MCU_1 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=EMITTER_1 Pin=C3-2
+Added Pin To Net: NetName=FEEDBACK_1 Pin=C4-1
+Added Pin To Net: NetName=EMITTER_1 Pin=C4-2
+Added Pin To Net: NetName=FEEDBACK_2 Pin=C5-1
+Added Pin To Net: NetName=BASE_2 Pin=C5-2
+Added Pin To Net: NetName=FEEDBACK_3 Pin=C6-1
+Added Pin To Net: NetName=BASE_3 Pin=C6-2
+Added Pin To Net: NetName=FEEDBACK_4 Pin=C7-1
+Added Pin To Net: NetName=BASE_4 Pin=C7-2
+Added Pin To Net: NetName=FEEDBACK_5 Pin=C8-1
+Added Pin To Net: NetName=BASE_5 Pin=C8-2
+Added Pin To Net: NetName=EMITTER_2 Pin=C9-1
+Added Pin To Net: NetName=MCU_2 Pin=C9-2
+Added Pin To Net: NetName=EMITTER_3 Pin=C10-1
+Added Pin To Net: NetName=MCU_3 Pin=C10-2
+Added Pin To Net: NetName=EMITTER_4 Pin=C11-1
+Added Pin To Net: NetName=MCU_4 Pin=C11-2
+Added Pin To Net: NetName=EMITTER_5 Pin=C12-1
+Added Pin To Net: NetName=MCU_5 Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=EMITTER_2 Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=EMITTER_3 Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=EMITTER_4 Pin=C15-2
+Added Pin To Net: NetName=FEEDBACK_2 Pin=C16-1
+Added Pin To Net: NetName=EMITTER_2 Pin=C16-2
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=EMITTER_5 Pin=C17-2
+Added Pin To Net: NetName=FEEDBACK_3 Pin=C18-1
+Added Pin To Net: NetName=EMITTER_3 Pin=C18-2
+Added Pin To Net: NetName=FEEDBACK_4 Pin=C19-1
+Added Pin To Net: NetName=EMITTER_4 Pin=C19-2
+Added Pin To Net: NetName=FEEDBACK_5 Pin=C20-1
+Added Pin To Net: NetName=EMITTER_5 Pin=C20-2
+Added Pin To Net: NetName=FEEDBACK_6 Pin=C21-1
+Added Pin To Net: NetName=BASE_6 Pin=C21-2
+Added Pin To Net: NetName=FEEDBACK_7 Pin=C22-1
+Added Pin To Net: NetName=BASE_7 Pin=C22-2
+Added Pin To Net: NetName=FEEDBACK_8 Pin=C23-1
+Added Pin To Net: NetName=BASE_8 Pin=C23-2
+Added Pin To Net: NetName=FEEDBACK_9 Pin=C24-1
+Added Pin To Net: NetName=BASE_9 Pin=C24-2
+Added Pin To Net: NetName=EMITTER_6 Pin=C25-1
+Added Pin To Net: NetName=MCU_6 Pin=C25-2
+Added Pin To Net: NetName=EMITTER_7 Pin=C26-1
+Added Pin To Net: NetName=MCU_7 Pin=C26-2
+Added Pin To Net: NetName=EMITTER_8 Pin=C27-1
+Added Pin To Net: NetName=MCU_8 Pin=C27-2
+Added Pin To Net: NetName=EMITTER_9 Pin=C28-1
+Added Pin To Net: NetName=MCU_9 Pin=C28-2
+Added Pin To Net: NetName=GND Pin=C29-1
+Added Pin To Net: NetName=EMITTER_6 Pin=C29-2
+Added Pin To Net: NetName=GND Pin=C30-1
+Added Pin To Net: NetName=EMITTER_7 Pin=C30-2
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=EMITTER_8 Pin=C31-2
+Added Pin To Net: NetName=FEEDBACK_6 Pin=C32-1
+Added Pin To Net: NetName=EMITTER_6 Pin=C32-2
+Added Pin To Net: NetName=GND Pin=C33-1
+Added Pin To Net: NetName=EMITTER_9 Pin=C33-2
+Added Pin To Net: NetName=FEEDBACK_7 Pin=C34-1
+Added Pin To Net: NetName=EMITTER_7 Pin=C34-2
+Added Pin To Net: NetName=FEEDBACK_8 Pin=C35-1
+Added Pin To Net: NetName=EMITTER_8 Pin=C35-2
+Added Pin To Net: NetName=FEEDBACK_9 Pin=C36-1
+Added Pin To Net: NetName=EMITTER_9 Pin=C36-2
+Added Pin To Net: NetName=FEEDBACK_10 Pin=C37-1
+Added Pin To Net: NetName=BASE_10 Pin=C37-2
+Added Pin To Net: NetName=FEEDBACK_11 Pin=C38-1
+Added Pin To Net: NetName=BASE_11 Pin=C38-2
+Added Pin To Net: NetName=FEEDBACK_12 Pin=C39-1
+Added Pin To Net: NetName=BASE_12 Pin=C39-2
+Added Pin To Net: NetName=EMITTER_10 Pin=C40-1
+Added Pin To Net: NetName=MCU_10 Pin=C40-2
+Added Pin To Net: NetName=EMITTER_11 Pin=C41-1
+Added Pin To Net: NetName=MCU_11 Pin=C41-2
+Added Pin To Net: NetName=EMITTER_12 Pin=C42-1
+Added Pin To Net: NetName=MCU_12 Pin=C42-2
+Added Pin To Net: NetName=GND Pin=C43-1
+Added Pin To Net: NetName=EMITTER_10 Pin=C43-2
+Added Pin To Net: NetName=GND Pin=C44-1
+Added Pin To Net: NetName=EMITTER_11 Pin=C44-2
+Added Pin To Net: NetName=GND Pin=C45-1
+Added Pin To Net: NetName=EMITTER_12 Pin=C45-2
+Added Pin To Net: NetName=FEEDBACK_10 Pin=C46-1
+Added Pin To Net: NetName=EMITTER_10 Pin=C46-2
+Added Pin To Net: NetName=FEEDBACK_11 Pin=C47-1
+Added Pin To Net: NetName=EMITTER_11 Pin=C47-2
+Added Pin To Net: NetName=FEEDBACK_12 Pin=C48-1
+Added Pin To Net: NetName=EMITTER_12 Pin=C48-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=MH1-MH
+Added Pin To Net: NetName=GND Pin=MH2-MH
+Added Pin To Net: NetName=GND Pin=MH3-MH
+Added Pin To Net: NetName=GND Pin=MH4-MH
+Added Pin To Net: NetName=GND Pin=PC_TP_GND1-1
+Added Pin To Net: NetName=VCC Pin=PC_TP_VCC1-1
+Added Pin To Net: NetName=COLLECTOR_1 Pin=Q1-1
+Added Pin To Net: NetName=BASE_1 Pin=Q1-2
+Added Pin To Net: NetName=EMITTER_1 Pin=Q1-3
+Added Pin To Net: NetName=COLLECTOR_2 Pin=Q2-1
+Added Pin To Net: NetName=BASE_2 Pin=Q2-2
+Added Pin To Net: NetName=EMITTER_2 Pin=Q2-3
+Added Pin To Net: NetName=COLLECTOR_3 Pin=Q3-1
+Added Pin To Net: NetName=BASE_3 Pin=Q3-2
+Added Pin To Net: NetName=EMITTER_3 Pin=Q3-3
+Added Pin To Net: NetName=COLLECTOR_4 Pin=Q4-1
+Added Pin To Net: NetName=BASE_4 Pin=Q4-2
+Added Pin To Net: NetName=EMITTER_4 Pin=Q4-3
+Added Pin To Net: NetName=COLLECTOR_5 Pin=Q5-1
+Added Pin To Net: NetName=BASE_5 Pin=Q5-2
+Added Pin To Net: NetName=EMITTER_5 Pin=Q5-3
+Added Pin To Net: NetName=COLLECTOR_6 Pin=Q6-1
+Added Pin To Net: NetName=BASE_6 Pin=Q6-2
+Added Pin To Net: NetName=EMITTER_6 Pin=Q6-3
+Added Pin To Net: NetName=COLLECTOR_7 Pin=Q7-1
+Added Pin To Net: NetName=BASE_7 Pin=Q7-2
+Added Pin To Net: NetName=EMITTER_7 Pin=Q7-3
+Added Pin To Net: NetName=COLLECTOR_8 Pin=Q8-1
+Added Pin To Net: NetName=BASE_8 Pin=Q8-2
+Added Pin To Net: NetName=EMITTER_8 Pin=Q8-3
+Added Pin To Net: NetName=COLLECTOR_9 Pin=Q9-1
+Added Pin To Net: NetName=BASE_9 Pin=Q9-2
+Added Pin To Net: NetName=EMITTER_9 Pin=Q9-3
+Added Pin To Net: NetName=COLLECTOR_10 Pin=Q10-1
+Added Pin To Net: NetName=BASE_10 Pin=Q10-2
+Added Pin To Net: NetName=EMITTER_10 Pin=Q10-3
+Added Pin To Net: NetName=COLLECTOR_11 Pin=Q11-1
+Added Pin To Net: NetName=BASE_11 Pin=Q11-2
+Added Pin To Net: NetName=EMITTER_11 Pin=Q11-3
+Added Pin To Net: NetName=COLLECTOR_12 Pin=Q12-1
+Added Pin To Net: NetName=BASE_12 Pin=Q12-2
+Added Pin To Net: NetName=EMITTER_12 Pin=Q12-3
+Added Pin To Net: NetName=NetD1_1 Pin=R1-1
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Pin To Net: NetName=BASE_1 Pin=R2-1
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Pin To Net: NetName=COLLECTOR_1 Pin=R3-1
+Added Pin To Net: NetName=VCC Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=BASE_1 Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=EMITTER_1 Pin=R5-2
+Added Pin To Net: NetName=BASE_2 Pin=R6-1
+Added Pin To Net: NetName=VCC Pin=R6-2
+Added Pin To Net: NetName=COLLECTOR_2 Pin=R7-1
+Added Pin To Net: NetName=VCC Pin=R7-2
+Added Pin To Net: NetName=BASE_3 Pin=R8-1
+Added Pin To Net: NetName=VCC Pin=R8-2
+Added Pin To Net: NetName=COLLECTOR_3 Pin=R9-1
+Added Pin To Net: NetName=VCC Pin=R9-2
+Added Pin To Net: NetName=BASE_4 Pin=R10-1
+Added Pin To Net: NetName=VCC Pin=R10-2
+Added Pin To Net: NetName=COLLECTOR_4 Pin=R11-1
+Added Pin To Net: NetName=VCC Pin=R11-2
+Added Pin To Net: NetName=BASE_5 Pin=R12-1
+Added Pin To Net: NetName=VCC Pin=R12-2
+Added Pin To Net: NetName=COLLECTOR_5 Pin=R13-1
+Added Pin To Net: NetName=VCC Pin=R13-2
+Added Pin To Net: NetName=GND Pin=R14-1
+Added Pin To Net: NetName=BASE_2 Pin=R14-2
+Added Pin To Net: NetName=GND Pin=R15-1
+Added Pin To Net: NetName=EMITTER_2 Pin=R15-2
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=BASE_3 Pin=R16-2
+Added Pin To Net: NetName=GND Pin=R17-1
+Added Pin To Net: NetName=EMITTER_3 Pin=R17-2
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=BASE_4 Pin=R18-2
+Added Pin To Net: NetName=GND Pin=R19-1
+Added Pin To Net: NetName=EMITTER_4 Pin=R19-2
+Added Pin To Net: NetName=GND Pin=R20-1
+Added Pin To Net: NetName=BASE_5 Pin=R20-2
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=EMITTER_5 Pin=R21-2
+Added Pin To Net: NetName=BASE_6 Pin=R22-1
+Added Pin To Net: NetName=VCC Pin=R22-2
+Added Pin To Net: NetName=COLLECTOR_6 Pin=R23-1
+Added Pin To Net: NetName=VCC Pin=R23-2
+Added Pin To Net: NetName=BASE_7 Pin=R24-1
+Added Pin To Net: NetName=VCC Pin=R24-2
+Added Pin To Net: NetName=COLLECTOR_7 Pin=R25-1
+Added Pin To Net: NetName=VCC Pin=R25-2
+Added Pin To Net: NetName=BASE_8 Pin=R26-1
+Added Pin To Net: NetName=VCC Pin=R26-2
+Added Pin To Net: NetName=COLLECTOR_8 Pin=R27-1
+Added Pin To Net: NetName=VCC Pin=R27-2
+Added Pin To Net: NetName=BASE_9 Pin=R28-1
+Added Pin To Net: NetName=VCC Pin=R28-2
+Added Pin To Net: NetName=COLLECTOR_9 Pin=R29-1
+Added Pin To Net: NetName=VCC Pin=R29-2
+Added Pin To Net: NetName=GND Pin=R30-1
+Added Pin To Net: NetName=BASE_6 Pin=R30-2
+Added Pin To Net: NetName=GND Pin=R31-1
+Added Pin To Net: NetName=EMITTER_6 Pin=R31-2
+Added Pin To Net: NetName=GND Pin=R32-1
+Added Pin To Net: NetName=BASE_7 Pin=R32-2
+Added Pin To Net: NetName=GND Pin=R33-1
+Added Pin To Net: NetName=EMITTER_7 Pin=R33-2
+Added Pin To Net: NetName=GND Pin=R34-1
+Added Pin To Net: NetName=BASE_8 Pin=R34-2
+Added Pin To Net: NetName=GND Pin=R35-1
+Added Pin To Net: NetName=EMITTER_8 Pin=R35-2
+Added Pin To Net: NetName=GND Pin=R36-1
+Added Pin To Net: NetName=BASE_9 Pin=R36-2
+Added Pin To Net: NetName=GND Pin=R37-1
+Added Pin To Net: NetName=EMITTER_9 Pin=R37-2
+Added Pin To Net: NetName=BASE_10 Pin=R38-1
+Added Pin To Net: NetName=VCC Pin=R38-2
+Added Pin To Net: NetName=COLLECTOR_10 Pin=R39-1
+Added Pin To Net: NetName=VCC Pin=R39-2
+Added Pin To Net: NetName=BASE_11 Pin=R40-1
+Added Pin To Net: NetName=VCC Pin=R40-2
+Added Pin To Net: NetName=COLLECTOR_11 Pin=R41-1
+Added Pin To Net: NetName=VCC Pin=R41-2
+Added Pin To Net: NetName=BASE_12 Pin=R42-1
+Added Pin To Net: NetName=VCC Pin=R42-2
+Added Pin To Net: NetName=COLLECTOR_12 Pin=R43-1
+Added Pin To Net: NetName=VCC Pin=R43-2
+Added Pin To Net: NetName=GND Pin=R44-1
+Added Pin To Net: NetName=BASE_10 Pin=R44-2
+Added Pin To Net: NetName=GND Pin=R45-1
+Added Pin To Net: NetName=EMITTER_10 Pin=R45-2
+Added Pin To Net: NetName=GND Pin=R46-1
+Added Pin To Net: NetName=BASE_11 Pin=R46-2
+Added Pin To Net: NetName=GND Pin=R47-1
+Added Pin To Net: NetName=EMITTER_11 Pin=R47-2
+Added Pin To Net: NetName=GND Pin=R48-1
+Added Pin To Net: NetName=BASE_12 Pin=R48-2
+Added Pin To Net: NetName=GND Pin=R49-1
+Added Pin To Net: NetName=EMITTER_12 Pin=R49-2
+Added Pin To Net: NetName=COLLECTOR_1 Pin=R*1-1
+Added Pin To Net: NetName=MCU_1 Pin=R*1-2
+Added Pin To Net: NetName=COLLECTOR_2 Pin=R*2-1
+Added Pin To Net: NetName=MCU_2 Pin=R*2-2
+Added Pin To Net: NetName=COLLECTOR_3 Pin=R*3-1
+Added Pin To Net: NetName=MCU_3 Pin=R*3-2
+Added Pin To Net: NetName=COLLECTOR_4 Pin=R*4-1
+Added Pin To Net: NetName=MCU_4 Pin=R*4-2
+Added Pin To Net: NetName=COLLECTOR_5 Pin=R*5-1
+Added Pin To Net: NetName=MCU_5 Pin=R*5-2
+Added Pin To Net: NetName=COLLECTOR_6 Pin=R*6-1
+Added Pin To Net: NetName=MCU_6 Pin=R*6-2
+Added Pin To Net: NetName=COLLECTOR_7 Pin=R*7-1
+Added Pin To Net: NetName=MCU_7 Pin=R*7-2
+Added Pin To Net: NetName=COLLECTOR_8 Pin=R*8-1
+Added Pin To Net: NetName=MCU_8 Pin=R*8-2
+Added Pin To Net: NetName=COLLECTOR_9 Pin=R*9-1
+Added Pin To Net: NetName=MCU_9 Pin=R*9-2
+Added Pin To Net: NetName=COLLECTOR_10 Pin=R*10-1
+Added Pin To Net: NetName=MCU_10 Pin=R*10-2
+Added Pin To Net: NetName=COLLECTOR_11 Pin=R*11-1
+Added Pin To Net: NetName=MCU_11 Pin=R*11-2
+Added Pin To Net: NetName=COLLECTOR_12 Pin=R*12-1
+Added Pin To Net: NetName=MCU_12 Pin=R*12-2
+Added Pin To Net: NetName=VCC Pin=TERM1-1
+Added Pin To Net: NetName=GND Pin=TERM1-2
+Added Pin To Net: NetName=MCU_1 Pin=TERM2-1
+Added Pin To Net: NetName=FEEDBACK_1 Pin=TERM2-2
+Added Pin To Net: NetName=MCU_2 Pin=TERM2-3
+Added Pin To Net: NetName=FEEDBACK_2 Pin=TERM2-4
+Added Pin To Net: NetName=MCU_3 Pin=TERM2-5
+Added Pin To Net: NetName=FEEDBACK_3 Pin=TERM2-6
+Added Pin To Net: NetName=MCU_4 Pin=TERM2-7
+Added Pin To Net: NetName=FEEDBACK_4 Pin=TERM2-8
+Added Pin To Net: NetName=MCU_5 Pin=TERM2-9
+Added Pin To Net: NetName=FEEDBACK_5 Pin=TERM2-10
+Added Pin To Net: NetName=MCU_6 Pin=TERM2-11
+Added Pin To Net: NetName=FEEDBACK_6 Pin=TERM2-12
+Added Pin To Net: NetName=MCU_7 Pin=TERM3-1
+Added Pin To Net: NetName=MCU Pin=TERM3-1
+Added Pin To Net: NetName=FEEDBACK_7 Pin=TERM3-2
+Added Pin To Net: NetName=GND Pin=TERM3-2
+Added Pin To Net: NetName=MCU_8 Pin=TERM3-3
+Added Pin To Net: NetName=FEEDBACK_8 Pin=TERM3-4
+Added Pin To Net: NetName=MCU_9 Pin=TERM3-5
+Added Pin To Net: NetName=FEEDBACK_9 Pin=TERM3-6
+Added Pin To Net: NetName=MCU_10 Pin=TERM3-7
+Added Pin To Net: NetName=FEEDBACK_10 Pin=TERM3-8
+Added Pin To Net: NetName=MCU_11 Pin=TERM3-9
+Added Pin To Net: NetName=FEEDBACK_11 Pin=TERM3-10
+Added Pin To Net: NetName=MCU_12 Pin=TERM3-11
+Added Pin To Net: NetName=FEEDBACK_12 Pin=TERM3-12
+Added Pin To Net: NetName=MCU_1 Pin=TP1-1
+Added Pin To Net: NetName=FEEDBACK_1 Pin=TP2-1
+Added Pin To Net: NetName=MCU_2 Pin=TP3-1
+Added Pin To Net: NetName=MCU_3 Pin=TP4-1
+Added Pin To Net: NetName=MCU_4 Pin=TP5-1
+Added Pin To Net: NetName=MCU_5 Pin=TP6-1
+Added Pin To Net: NetName=FEEDBACK_2 Pin=TP7-1
+Added Pin To Net: NetName=FEEDBACK_3 Pin=TP8-1
+Added Pin To Net: NetName=FEEDBACK_4 Pin=TP9-1
+Added Pin To Net: NetName=FEEDBACK_5 Pin=TP10-1
+Added Pin To Net: NetName=MCU_6 Pin=TP11-1
+Added Pin To Net: NetName=MCU_7 Pin=TP12-1
+Added Pin To Net: NetName=MCU_8 Pin=TP13-1
+Added Pin To Net: NetName=MCU_9 Pin=TP14-1
+Added Pin To Net: NetName=FEEDBACK_6 Pin=TP15-1
+Added Pin To Net: NetName=FEEDBACK_7 Pin=TP16-1
+Added Pin To Net: NetName=FEEDBACK_8 Pin=TP17-1
+Added Pin To Net: NetName=FEEDBACK_9 Pin=TP18-1
+Added Pin To Net: NetName=MCU_10 Pin=TP19-1
+Added Pin To Net: NetName=MCU_11 Pin=TP20-1
+Added Pin To Net: NetName=MCU_12 Pin=TP21-1
+Added Pin To Net: NetName=FEEDBACK_10 Pin=TP22-1
+Added Pin To Net: NetName=FEEDBACK_11 Pin=TP23-1
+Added Pin To Net: NetName=FEEDBACK_12 Pin=TP24-1
+Added Pin To Net: NetName=BASE_1 Pin=TP_B1-1
+Added Pin To Net: NetName=BASE_2 Pin=TP_B2-1
+Added Pin To Net: NetName=BASE_3 Pin=TP_B3-1
+Added Pin To Net: NetName=BASE_4 Pin=TP_B4-1
+Added Pin To Net: NetName=BASE_5 Pin=TP_B5-1
+Added Pin To Net: NetName=BASE_6 Pin=TP_B6-1
+Added Pin To Net: NetName=BASE_7 Pin=TP_B7-1
+Added Pin To Net: NetName=BASE_8 Pin=TP_B8-1
+Added Pin To Net: NetName=BASE_9 Pin=TP_B9-1
+Added Pin To Net: NetName=BASE_10 Pin=TP_B10-1
+Added Pin To Net: NetName=BASE_11 Pin=TP_B11-1
+Added Pin To Net: NetName=BASE_12 Pin=TP_B12-1
+Added Pin To Net: NetName=COLLECTOR_1 Pin=TP_C1-1
+Added Pin To Net: NetName=COLLECTOR_2 Pin=TP_C2-1
+Added Pin To Net: NetName=COLLECTOR_3 Pin=TP_C3-1
+Added Pin To Net: NetName=COLLECTOR_4 Pin=TP_C4-1
+Added Pin To Net: NetName=COLLECTOR_5 Pin=TP_C5-1
+Added Pin To Net: NetName=COLLECTOR_6 Pin=TP_C6-1
+Added Pin To Net: NetName=COLLECTOR_7 Pin=TP_C7-1
+Added Pin To Net: NetName=COLLECTOR_8 Pin=TP_C8-1
+Added Pin To Net: NetName=COLLECTOR_9 Pin=TP_C9-1
+Added Pin To Net: NetName=COLLECTOR_10 Pin=TP_C10-1
+Added Pin To Net: NetName=COLLECTOR_11 Pin=TP_C11-1
+Added Pin To Net: NetName=COLLECTOR_12 Pin=TP_C12-1
+Added Pin To Net: NetName=EMITTER_1 Pin=TP_E1-1
+Added Pin To Net: NetName=EMITTER_2 Pin=TP_E2-1
+Added Pin To Net: NetName=EMITTER_3 Pin=TP_E3-1
+Added Pin To Net: NetName=EMITTER_4 Pin=TP_E4-1
+Added Pin To Net: NetName=EMITTER_5 Pin=TP_E5-1
+Added Pin To Net: NetName=EMITTER_6 Pin=TP_E6-1
+Added Pin To Net: NetName=EMITTER_7 Pin=TP_E7-1
+Added Pin To Net: NetName=EMITTER_8 Pin=TP_E8-1
+Added Pin To Net: NetName=EMITTER_9 Pin=TP_E9-1
+Added Pin To Net: NetName=EMITTER_10 Pin=TP_E10-1
+Added Pin To Net: NetName=EMITTER_11 Pin=TP_E11-1
+Added Pin To Net: NetName=EMITTER_12 Pin=TP_E12-1
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component C1 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component C2 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component C3 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component C4 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C5 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C6 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C7 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C8 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C9 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C10 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C11 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C12 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C13 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C14 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C15 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C16 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C17 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C18 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C19 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C20 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C21 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C22 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C23 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C24 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C25 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C26 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C27 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C28 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C29 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C30 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C31 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C32 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C33 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C34 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C35 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C36 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C37 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C38 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C39 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C40 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C41 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C42 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C43 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C44 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C45 100UF
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C46 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C47 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component C48 08055C224JAT2A
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component D1 LTST-C171GKT
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component FID1 Fiducial
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component FID3 Fiducial
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component MH1 #6 MH
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component MH2 #6 MH
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component MH3 #6 MH
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component MH4 #6 MH
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component PC_TP_GND1 PC Test Point GND
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component PC_TP_VCC1 PC Test Point VCC
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component Q1 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q2 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q3 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q4 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q5 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q6 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q7 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q8 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q9 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q10 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q11 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component Q12 DXT3904
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component R1 1K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component R2 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component R3 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component R4 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component R5 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R6 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R7 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R8 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R9 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R10 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R11 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R12 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R13 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R14 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R15 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R16 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R17 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R18 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R19 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R20 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R21 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R22 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R23 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R24 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R25 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R26 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R27 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R28 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R29 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R30 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R31 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R32 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R33 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R34 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R35 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R36 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R37 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R38 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R39 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R40 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R41 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R42 39K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R43 2.2K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R44 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R45 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R46 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R47 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R48 10K
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R49 470
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component R*1 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*2 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*3 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*4 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*5 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*6 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*7 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*8 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*9 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*10 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*11 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component R*12 0
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TERM1 282834-2
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TERM2 1935268
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TERM3 282834-2
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TERM3 1935268
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TP1 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TP2 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP3 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP4 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP5 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP6 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP7 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP8 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP9 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP10 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP11 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP12 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP13 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP14 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP15 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP16 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP17 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP18 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP19 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP20 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP21 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP22 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP23 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP24 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TP_B1 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B2 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B3 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B4 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B5 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B6 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B7 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B8 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B9 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B10 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B11 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_B12 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TP_C1 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C2 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C3 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C4 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C5 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C6 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C7 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C8 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C9 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C10 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C11 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_C12 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TP_E1 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E2 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E3 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E4 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E5 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E6 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E7 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E8 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E9 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E10 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E11 TestPoint
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TP_E12 TestPoint

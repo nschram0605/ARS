@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=MCU_1 Pin=C9-2
+Removed Pin From Net: NetName=MCU_1 Pin=R*2-2
+Removed Pin From Net: NetName=VCC Pin=TERM1-1
+Removed Pin From Net: NetName=GND Pin=TERM1-2
+Removed Pin From Net: NetName=MCU_1 Pin=TERM2-1
+Removed Pin From Net: NetName=FEEDBACK_1 Pin=TERM2-2
+Removed Pin From Net: NetName=MCU_1 Pin=TERM4-1
+Removed Pin From Net: NetName=FEEDBACK_2 Pin=TERM4-2
+Removed Pin From Net: NetName=MCU_3 Pin=TERM5-1
+Removed Pin From Net: NetName=FEEDBACK_3 Pin=TERM5-2
+Removed Pin From Net: NetName=MCU_4 Pin=TERM6-1
+Removed Pin From Net: NetName=FEEDBACK_4 Pin=TERM6-2
+Removed Pin From Net: NetName=MCU_5 Pin=TERM7-1
+Removed Pin From Net: NetName=FEEDBACK_5 Pin=TERM7-2
+Removed Pin From Net: NetName=MCU_6 Pin=TERM8-1
+Removed Pin From Net: NetName=FEEDBACK_6 Pin=TERM8-2
+Removed Pin From Net: NetName=MCU_7 Pin=TERM9-1
+Removed Pin From Net: NetName=FEEDBACK_7 Pin=TERM9-2
+Removed Pin From Net: NetName=MCU_8 Pin=TERM10-1
+Removed Pin From Net: NetName=FEEDBACK_8 Pin=TERM10-2
+Removed Pin From Net: NetName=MCU_9 Pin=TERM11-1
+Removed Pin From Net: NetName=FEEDBACK_9 Pin=TERM11-2
+Removed Pin From Net: NetName=MCU_10 Pin=TERM12-1
+Removed Pin From Net: NetName=FEEDBACK_10 Pin=TERM12-2
+Removed Pin From Net: NetName=MCU_11 Pin=TERM13-1
+Removed Pin From Net: NetName=FEEDBACK_11 Pin=TERM13-2
+Removed Pin From Net: NetName=MCU_12 Pin=TERM14-1
+Removed Pin From Net: NetName=FEEDBACK_12 Pin=TERM14-2
+Removed Pin From Net: NetName=MCU_1 Pin=TP3-1
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_01 Member=TERM2
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM4
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM5
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM6
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM7
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM8
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM9
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM10
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM11
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM12
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM13
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_02 Member=TERM14
+Change Component DesignItemId : Designator=TERM1 Old DesignItemId=282834-2 New DesignItemId=1935268
+Change Component DesignItemId : Designator=TERM2 Old DesignItemId=282834-2 New DesignItemId=1935268
+Change Component Footprint: Designator=TERM1 Old Footprint=282834-2 New Footprint=1935268
+Change Component Footprint: Designator=TERM2 Old Footprint=282834-2 New Footprint=1935268
+Change Component Comment : Designator=TERM1 Old Comment=282834-2 New Comment=1935268
+Change Component Comment : Designator=TERM2 Old Comment=282834-2 New Comment=1935268
+Added Component: Designator=TERM1(282834-2)
+Added Pin To Net: NetName=MCU_1 Pin=TERM1-1
+Added Pin To Net: NetName=VCC Pin=TERM1-1
+Added Pin To Net: NetName=FEEDBACK_1 Pin=TERM1-2
+Added Pin To Net: NetName=GND Pin=TERM1-2
+Added Pin To Net: NetName=MCU_7 Pin=TERM2-1
+Added Pin To Net: NetName=FEEDBACK_7 Pin=TERM2-2
+Added Pin To Net: NetName=MCU_8 Pin=TERM2-3
+Added Pin To Net: NetName=FEEDBACK_8 Pin=TERM2-4
+Added Pin To Net: NetName=MCU_9 Pin=TERM2-5
+Added Pin To Net: NetName=FEEDBACK_9 Pin=TERM2-6
+Added Pin To Net: NetName=MCU_10 Pin=TERM2-7
+Added Pin To Net: NetName=FEEDBACK_10 Pin=TERM2-8
+Added Pin To Net: NetName=MCU_11 Pin=TERM2-9
+Added Pin To Net: NetName=FEEDBACK_11 Pin=TERM2-10
+Added Pin To Net: NetName=MCU_12 Pin=TERM2-11
+Added Pin To Net: NetName=FEEDBACK_12 Pin=TERM2-12
+Added Pin To Net: NetName=MCU_2 Pin=C9-2
+Added Pin To Net: NetName=MCU_2 Pin=R*2-2
+Added Pin To Net: NetName=MCU_2 Pin=TP3-1
+Added Net: Name=MCU_2
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TERM1 1935268
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TERM2 1935268

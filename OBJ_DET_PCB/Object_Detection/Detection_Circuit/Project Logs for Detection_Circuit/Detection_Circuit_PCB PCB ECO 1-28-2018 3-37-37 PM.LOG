@@ -1,0 +1,4 @@
+Added Component: Designator=TestPoint1(TestPoint)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VCC Pin=TestPoint1-1
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TestPoint1 TestPoint
