@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=TP1 Old Footprint=Test Point New Footprint=TestPoint
+Change Component Footprint: Designator=TP2 Old Footprint=Test Point New Footprint=TestPoint
+Change Component Footprint: Designator=TP_B Old Footprint=Test Point New Footprint=TestPoint
+Change Component Footprint: Designator=TP_C Old Footprint=Test Point New Footprint=TestPoint
+Change Component Footprint: Designator=TP_E Old Footprint=Test Point New Footprint=TestPoint
+Change Component Footprint: Designator=TP_GND Old Footprint=Test Point New Footprint=TestPoint
+Change Component Footprint: Designator=TP_VCC Old Footprint=Test Point New Footprint=TestPoint
+Change Component Comment : Designator=TP1 Old Comment=TP New Comment=TestPoint
+Change Component Comment : Designator=TP2 Old Comment=TP New Comment=TestPoint
+Change Component Comment : Designator=TP_B Old Comment=TP New Comment=TestPoint
+Change Component Comment : Designator=TP_C Old Comment=TP New Comment=TestPoint
+Change Component Comment : Designator=TP_E Old Comment=TP New Comment=TestPoint
+Change Component Comment : Designator=TP_GND Old Comment=TP New Comment=TestPoint
+Change Component Comment : Designator=TP_VCC Old Comment=TP New Comment=TestPoint
+Added Pin To Net: NetName=Out Pin=TP1-1
+Added Pin To Net: NetName=Feedback Pin=TP2-1
+Added Pin To Net: NetName=Base Pin=TP_B-1
+Added Pin To Net: NetName=Collector Pin=TP_C-1
+Added Pin To Net: NetName=Emitter Pin=TP_E-1
+Added Pin To Net: NetName=GND Pin=TP_GND-1
+Added Pin To Net: NetName=VCC Pin=TP_VCC-1

@@ -1,0 +1,28 @@
+Change Physical Footprint: Designator=C1 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=C2 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=C3 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=C4 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=C5 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=D1 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=FID1 Old Footprint=Fiducial New Footprint=Fiducial
+Change Physical Footprint: Designator=FID2 Old Footprint=Fiducial New Footprint=Fiducial
+Change Physical Footprint: Designator=FID3 Old Footprint=Fiducial New Footprint=Fiducial
+Change Physical Footprint: Designator=MH1 Old Footprint=#6_MH New Footprint=#6_MH
+Change Physical Footprint: Designator=MH2 Old Footprint=#6_MH New Footprint=#6_MH
+Change Physical Footprint: Designator=MH3 Old Footprint=#6_MH New Footprint=#6_MH
+Change Physical Footprint: Designator=MH4 Old Footprint=#6_MH New Footprint=#6_MH
+Change Physical Footprint: Designator=Q1 Old Footprint=MMBT2222A-7-F New Footprint=MMBT2222A-7-F
+Change Physical Footprint: Designator=R1 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=R2 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=R3 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=R4 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=R5 Old Footprint=6-0805_M New Footprint=6-0805_M
+Change Physical Footprint: Designator=TERM1 Old Footprint=282834-2 New Footprint=282834-2
+Change Physical Footprint: Designator=TERM2 Old Footprint=282834-2 New Footprint=282834-2
+Change Physical Footprint: Designator=TP1 Old Footprint=Test Point New Footprint=Test Point
+Change Physical Footprint: Designator=TP2 Old Footprint=Test Point New Footprint=Test Point
+Change Physical Footprint: Designator=TP_B Old Footprint=Test Point New Footprint=Test Point
+Change Physical Footprint: Designator=TP_C Old Footprint=Test Point New Footprint=Test Point
+Change Physical Footprint: Designator=TP_E Old Footprint=Test Point New Footprint=Test Point
+Change Physical Footprint: Designator=TP_GND Old Footprint=Test Point New Footprint=Test Point
+Change Physical Footprint: Designator=TP_VCC Old Footprint=Test Point New Footprint=Test Point

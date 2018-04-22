@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=Detection_Circuit_Sheet_01 Member=TERM?
+Change Component Designator: OldDesignator=TERM2 NewDesignator=TERM3
+Change Component Designator: OldDesignator=TERM3 NewDesignator=TERM4
+Change Component Designator: OldDesignator=TERM? NewDesignator=TERM5
+Added Member To Class: ClassName=Detection_Circuit_Sheet_02 Member=Component TERM4 1935268

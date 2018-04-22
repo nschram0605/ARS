@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: G:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Detection_Circuit_PCB.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Default_Width|Scope=Board|Minimum=25.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Width|RuleName=VCC_Width|Scope=Board|Minimum=25.00
+RuleKind=Width|RuleName=GND_Width|Scope=Board|Minimum=25.00

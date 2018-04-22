@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Augmented Reality Sandbox" company="Senior Design Group" webLink="" view-date="2017-09-17" view-index="0" gantt-divider-location="508" resource-divider-location="300" version="2.8.5" locale="en_US">
+    <description><![CDATA[Augmented Reality Sandbox
+Project Progress Tracking
+Group Members: N. Schram, R. Heifferon, R. Butler]]></description>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="236" order="0"/>
+        <field id="tpd4" name="Begin date" width="134" order="1"/>
+        <field id="tpd5" name="End date" width="134" order="2"/>
+        <option id="color.recent"><![CDATA[#ff9900 #cc00cc #33ff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="130" name="Project Kickoff" meeting="false" start="2017-09-18" duration="15" complete="95" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <task id="139" name="Project Directives" color="#cc00cc" meeting="false" start="2017-09-18" duration="1" complete="100" expand="true">
+                <notes><![CDATA[SENIOR DESIGN I
+----------------------------------------------------------------------------------------
+Group Members: 
+1. Nathan Schram
+2. Ryan Heifferon
+3. Randy Bulter
+
+Welcome Gentlemen,
+This is going to be the working Gantt software that we use to track every step of our progress through the entire semester.  I have created the general structure for each thing that is required this semester (with the exception of the individual assignments).
+
+To differentiate our tasks and progress through individual tasks, I have assigned a color to each of us:
+1. N. Schram - Purple
+2. R. Heifferon - Orange
+3. R. Butler - Green]]></notes>
+            </task>
+            <task id="0" name="Define Problem" color="#cc00cc" meeting="false" start="2017-09-25" duration="3" complete="100" expand="true">
+                <notes><![CDATA[2017-NOV-30: 
+Redefinition of our original problem is completed and located in the project requirements document]]></notes>
+                <depend id="1" type="2" difference="0" hardness="Strong"/>
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1" name="Develop Requirements" color="#cc00cc" meeting="false" start="2017-09-28" duration="7" complete="90" expand="true">
+                <notes><![CDATA[2017-NOV-27:
+First pass of the software requirements document has been completed.  Posted to google drive but have not heard back any feedback from the group.  I will try and wrap that up this week.]]></notes>
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" name="Develop Constraints" color="#cc00cc" meeting="false" start="2017-09-28" duration="3" complete="100" expand="true">
+                <notes><![CDATA[2017-NOV-30:
+Project constraints are rolled into the requirements, as they are for the most part the same thing.  Any unique constraints that develop separetely from the requirements will be mentioned verbosely.]]></notes>
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="3" name="Develop Concepts" color="#000000" meeting="false" start="2017-10-17" duration="6" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <task id="10" name="Brainstorming" color="#33ff00" meeting="false" start="2017-10-17" duration="1" complete="0" expand="true"/>
+            <task id="11" name="Mind-Map" color="#33ff00" meeting="false" start="2017-10-18" duration="1" complete="0" expand="true"/>
+            <task id="12" name="Functional Analysis" color="#33ff00" meeting="false" start="2017-10-19" duration="1" complete="0" expand="true"/>
+            <task id="13" name="TRIZ" color="#33ff00" meeting="false" start="2017-10-23" duration="1" complete="0" expand="true"/>
+            <task id="14" name="SCAMPER" color="#33ff00" meeting="false" start="2017-10-24" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="4" name="Select Concept" meeting="false" start="2017-10-30" duration="3" complete="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+            <task id="15" name="Six Hats" color="#ff9900" meeting="false" start="2017-10-30" duration="1" complete="0" expand="true"/>
+            <task id="16" name="Weighted Analysis" color="#ff9900" meeting="false" start="2017-10-31" duration="1" complete="0" expand="true"/>
+            <task id="17" name="ROM Cost" color="#ff9900" meeting="false" start="2017-11-01" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="18" name="Patent Search" color="#33ff00" meeting="false" start="2017-11-02" duration="1" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Analyze Risks" meeting="false" start="2017-11-03" duration="1" complete="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <task id="19" name="Risk Radar" color="#33ff00" meeting="false" start="2017-11-03" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="6" name="Preliminary Design" meeting="false" start="2017-11-06" duration="6" complete="100" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <task id="20" name="Layout Drawing" color="#cc00cc" meeting="false" start="2017-11-06" duration="1" complete="100" expand="true">
+                <notes><![CDATA[2017-NOV-29:
+Completed the block diagram.  I assume that was what this was meant for.  A more detailed schematic style diagram will be created in Altium but will be documented under the "Detailed Design" section/OrCad.]]></notes>
+            </task>
+            <task id="21" name="Master Equipment List" color="#cc00cc" meeting="false" start="2017-11-08" duration="1" complete="100" expand="true">
+                <notes><![CDATA[2017-NOV-30:
+Completed the bill of materials for the project.  I broke the document down into two sections: prototype and final production.  The final costs of the production unit is roughed in for materials but not for costs.  Once the final mechanical design pieces are done we can estmiate the final costs.]]></notes>
+            </task>
+            <task id="22" name="Power Profile" color="#cc00cc" meeting="false" start="2017-11-13" duration="1" complete="100" expand="true">
+                <notes><![CDATA[2017-NOV-30:
+Power profile of primary equipment has been complete.  As this project is primarily a software related project, only the main components have been calculated for power consumption:
+1. Laptop computer
+2. RGB+D Camera
+3. Digital Projector
+4. 3D Printer]]></notes>
+            </task>
+        </task>
+        <task id="7" name="Analysis" color="#ff9900" meeting="false" start="2017-11-14" duration="1" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="Intermediate Design" meeting="false" start="2017-11-17" duration="1" complete="100" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <task id="23" name="Architecture" color="#cc00cc" meeting="false" start="2017-11-17" duration="1" complete="100" expand="true">
+                <notes><![CDATA[2017-NOV-29:
+Software architecture document completed.  Will go over the document with the group at our next meeting.]]></notes>
+            </task>
+        </task>
+        <task id="9" name="Detailed Design" meeting="false" start="2017-11-20" duration="41" complete="7" expand="true">
+            <task id="24" name="OrCAD" color="#cc00cc" meeting="false" start="2017-11-20" duration="1" complete="100" expand="true">
+                <notes><![CDATA[2017-NOV-30:
+Completed the electrical schematic in Altium designer.  ]]></notes>
+            </task>
+            <task id="25" name="Matlab" color="#cc00cc" meeting="false" start="2017-11-22" duration="1" complete="100" expand="true">
+                <notes><![CDATA[2017-NOV-30:
+The Matlab section of code is being marked as complete as the only use for this software is going to be in post processing of data for the 3D plot.  It is likely that this will be done entirely in Python and will not be implemented at all.]]></notes>
+            </task>
+            <task id="165" name="Final Presentation" color="#ff9900" meeting="false" start="2017-11-24" duration="3" complete="0" expand="true"/>
+            <task id="26" name="Software" color="#cc00cc" meeting="false" start="2017-12-18" duration="21" complete="0" expand="true">
+                <notes><![CDATA[2017-NOV-29:
+This is the actual start of developing the software.  This is not scheduled for the fall 2017 term but is something I will start working on over the winter break.]]></notes>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Nathan Schram" function="Default:1" contacts="nschram05@gmail.com" phone="303.912.3151"/>
+        <resource id="1" name="Ryan Heifferon" function="Default:0" contacts="heffcan@gmail.com" phone="720.333.2361"/>
+        <resource id="2" name="Randy Butler" function="Default:0" contacts="" phone="505.412.3896"/>
+    </resources>
+    <allocations>
+        <allocation task-id="21" resource-id="0" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="23" resource-id="0" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="15" resource-id="1" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="0.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="11" resource-id="2" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="13" resource-id="2" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="14" resource-id="2" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="18" resource-id="2" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="19" resource-id="2" function="Default:0" responsible="true" load="0.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="false" load="0.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

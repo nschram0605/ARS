@@ -1,0 +1,7 @@
+Change Component DesignItemId : Designator=TERM1 Old DesignItemId=282834-2 New DesignItemId=1935161
+Change Component Footprint: Designator=TERM1 Old Footprint=282834-2 New Footprint=1935161
+Change Component Comment : Designator=TERM1 Old Comment=282834-2 New Comment=1935161
+Added Component: Designator=TERM2(1935161)
+Added Pin To Net: NetName=GND Pin=TERM2-1
+Added Pin To Net: NetName=GND Pin=TERM2-2
+Added Member To Class: ClassName=Detection_Circuit_Sheet_01 Member=Component TERM2 1935161

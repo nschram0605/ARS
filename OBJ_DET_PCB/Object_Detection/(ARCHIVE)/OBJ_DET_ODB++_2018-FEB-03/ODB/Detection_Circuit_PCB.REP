@@ -1,0 +1,84 @@
+*************************************************************
+FileName = Detection_Circuit_PCB.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\matrix\matrix
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\profile
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\stephdr
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\top_paste\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\top_solder\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\top\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\top\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\bottom\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\bottom\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\drill\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\drill\tools
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\keep-out_layer\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\keep-out_layer\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_1\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_1\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_2\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_2\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_3\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_3\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_4\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_4\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_13\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_13\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_15\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\mechanical_15\attrlist
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : F:\UCD\ELEC_5840_IND_STUDY_PCB_DESIGN\Object_Detection\Detection_Circuit\Project Outputs for Detection_Circuit\ODB\odb\steps\pcb\eda\data
+
