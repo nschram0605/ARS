@@ -30,27 +30,33 @@ const int inductor_11_pin = A11;
 const int inductor_12_pin = A12;
 
 //Counters
-int i, j, k;
+int i = 0;
+int j = 0;
+int k = 0;
 
 //Inductor Array Values
 int ind_array[13];
 //Boolean flags
 bool zone_array[13];
 
-int global_detection_threshold = 375;
+int global_detection_threshold = 875;
 int global_num_inductors = 12;
+int global_count = 100;
+long int averaged_ind[13];
 
 
 //------------------------------------------------
 //Comment/Uncomment for Serial Port Debug Printing
-#define serial_debug 1
-#define zone_debug 1
+//#define serial_debug 1
+//#define serial_debug_
+//#define zone_debug 1
 //------------------------------------------------
 
 //Function Prototypes
 void read_inductors(void);
 void determine_detection_zone(void);
 void serial_output(void);
+void clear_averaged_values(void);
 
 /**
  * @file obj_det.ino
@@ -66,6 +72,7 @@ void setup() {
   for (i=1; i<global_num_inductors+1; i++){
     ind_array[i] = 0;
     zone_array[i] = 0;
+    averaged_ind[i] = 0;
   }
 }
 
@@ -78,17 +85,31 @@ void setup() {
  * @date 2018-APRL-27
  */
 void loop() {
-  //Read all inductor values
-  read_inductors();
+  
+  if (j < global_count){
+    //Read all inductor values and average
+    read_inductors();
+  }
+  //clear the average and continue on
+  else if (j == global_count){
+    take_the_average();
 
-  //Determine if a detection is present
-  determine_detection_zone();
+    //Determine if a detection is present
+    determine_detection_zone();
+
+    //Clear the previous averaages
+    clear_averaged_values();
+    j = 0;
+  }
   
   //Output serial stream to python program
   serial_output();
 
   //10ms delay
-  delay(10);
+  delay(1000);
+
+  //j is the main loop counter used for averaging
+  j++;
 }
 
 /**
@@ -100,18 +121,60 @@ void loop() {
  * @date 2018-APRL-27
  */
 void read_inductors(void){
-  ind_array[1] = analogRead(inductor_1_pin);
-  ind_array[2] = analogRead(inductor_2_pin);
-  ind_array[3] = analogRead(inductor_3_pin);
-  ind_array[4] = analogRead(inductor_4_pin);
-  ind_array[5] = analogRead(inductor_5_pin);
-  ind_array[6] = analogRead(inductor_6_pin);
-  ind_array[7] = analogRead(inductor_7_pin);
-  ind_array[8] = analogRead(inductor_8_pin);
-  ind_array[9] = analogRead(inductor_9_pin);
-  ind_array[10] = analogRead(inductor_10_pin);
-  ind_array[11] = analogRead(inductor_11_pin);
+
+
   ind_array[12] = analogRead(inductor_12_pin);
+  ind_array[11] = analogRead(inductor_11_pin);
+  ind_array[10] = analogRead(inductor_10_pin);
+  ind_array[9] = analogRead(inductor_9_pin);
+  ind_array[8] = analogRead(inductor_8_pin);
+  ind_array[7] = analogRead(inductor_7_pin);
+  ind_array[6] = analogRead(inductor_6_pin);
+  ind_array[5] = analogRead(inductor_5_pin);
+  ind_array[4] = analogRead(inductor_4_pin);
+  ind_array[3] = analogRead(inductor_3_pin);
+  ind_array[2] = analogRead(inductor_2_pin);
+  ind_array[1] = analogRead(inductor_1_pin);
+
+  averaged_ind[12] = averaged_ind[12] + ind_array[12];
+  averaged_ind[11] = averaged_ind[11] + ind_array[11];
+  averaged_ind[10] = averaged_ind[10] + ind_array[10];
+  averaged_ind[9] = averaged_ind[9] + ind_array[9];
+  averaged_ind[8] = averaged_ind[8] + ind_array[8];
+  averaged_ind[7] = averaged_ind[7] + ind_array[7];
+  averaged_ind[6] = averaged_ind[6] + ind_array[6];
+  averaged_ind[5] = averaged_ind[5] + ind_array[5];
+  averaged_ind[4] = averaged_ind[4] + ind_array[4];
+  averaged_ind[3] = averaged_ind[3] + ind_array[3];
+  averaged_ind[2] = averaged_ind[2] + ind_array[2];
+  averaged_ind[1] = averaged_ind[1] + ind_array[1];
+}
+
+/**
+* @file obj_det.ino
+* @function 
+* @brief 
+* @author n.schram
+* @date 2018-APRL-28
+*/ 
+void clear_averaged_values(void){
+  for (i=1; i<global_num_inductors+1; i++){
+    averaged_ind[i] = 0;
+    zone_array[i] = 0;
+  }
+}
+
+/**
+* @file obj_det.ino
+* @function 
+* @brief 
+* @author n.schram
+* @date 2018-APRL-28
+*/ 
+void take_the_average(void){
+  for (i=1; i<global_num_inductors+1; i++){
+    averaged_ind[i] = averaged_ind[i] / global_count;
+  }
 }
 
 /**
@@ -147,6 +210,7 @@ void determine_detection_zone(void){
 // -------------------------     ---
 
 //Determine which zones are detecting
+
   for (i = 1; i<global_num_inductors+1; i++){
 
     #ifdef zone_debug
@@ -155,7 +219,7 @@ void determine_detection_zone(void){
     Serial.print(" = ");
     Serial.println(ind_array[i]);
     #endif
-    if (ind_array[i] >= global_detection_threshold){
+    if (averaged_ind[i] >= global_detection_threshold){
       zone_array[i] = 1;
       #ifdef zone_debug
       Serial.print("zone_array: ");
@@ -321,7 +385,7 @@ void serial_output(void){
     Serial.println("N/A, K");
     #endif
   }
-
+  
   if (zone_array[12] == 1){
     Serial.println("L");
     #ifdef serial_debug
