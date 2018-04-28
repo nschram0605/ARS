@@ -29,30 +29,28 @@ const int inductor_10_pin = A10;
 const int inductor_11_pin = A11;
 const int inductor_12_pin = A12;
 
-//Initialization
-int ind_array[12];
-for (int i=0; i<global_detection_threshold; i++){
-  ind_array[i] = 0;
-}
-
-//Boolean flags
-bool zone_array[12];
-
-int global_detection_threshold = 128;
-int global_num_inductors = 12;
-
 //Counters
 int i, j, k;
 
+//Inductor Array Values
+int ind_array[13];
+//Boolean flags
+bool zone_array[13];
+
+int global_detection_threshold = 375;
+int global_num_inductors = 12;
+
+
 //------------------------------------------------
 //Comment/Uncomment for Serial Port Debug Printing
-#define serial_debug
+#define serial_debug 1
+#define zone_debug 1
 //------------------------------------------------
 
 //Function Prototypes
 void read_inductors(void);
-int determine_detection_zone(void);
-void serial_output(int detection_zone_array[]);
+void determine_detection_zone(void);
+void serial_output(void);
 
 /**
  * @file obj_det.ino
@@ -63,6 +61,12 @@ void serial_output(int detection_zone_array[]);
  */
 void setup() {
   Serial.begin(9600);
+
+  //Initialization
+  for (i=1; i<global_num_inductors+1; i++){
+    ind_array[i] = 0;
+    zone_array[i] = 0;
+  }
 }
 
 /**
@@ -78,8 +82,13 @@ void loop() {
   read_inductors();
 
   //Determine if a detection is present
+  determine_detection_zone();
+  
   //Output serial stream to python program
-  serial_output(determine_detection_zone());
+  serial_output();
+
+  //10ms delay
+  delay(10);
 }
 
 /**
@@ -112,7 +121,7 @@ void read_inductors(void){
  * @author n.schram
  * @date 2018-APRL-27
  */
-int determine_detection_zone(void){
+void determine_detection_zone(void){
 //Total number of detection zones: 12
 //40"x30" inner dimensions
 // |-------40"-------|
@@ -138,9 +147,21 @@ int determine_detection_zone(void){
 // -------------------------     ---
 
 //Determine which zones are detecting
-  for (int i = 1; i<global_num_inductors; i++){
+  for (i = 1; i<global_num_inductors+1; i++){
+
+    #ifdef zone_debug
+    Serial.print("ind_array: ");
+    Serial.print(i);
+    Serial.print(" = ");
+    Serial.println(ind_array[i]);
+    #endif
     if (ind_array[i] >= global_detection_threshold){
       zone_array[i] = 1;
+      #ifdef zone_debug
+      Serial.print("zone_array: ");
+      Serial.print(i);
+      Serial.println(" = 1");
+      #endif
     }
     else {
       zone_array[i] = 0;
@@ -156,79 +177,162 @@ int determine_detection_zone(void){
  * @author n.schram
  * @date 2018-APRL-27
  */
-void serial_output(int detection_zone_array[]){
-  char output_string = 'na'
+void serial_output(void){
 
-  for (i=0; i<global_detection_threshold; i++){
-    switch (detection_zone_array[i]){
-    case 1:
-      output_string = 'A';
-      #ifdef serial_debug
-      println("Zone: A");
-      #endif
-    case 2:  
-      output_string = 'B';
-      #ifdef serial_debug
-      println("Zone: B");
-      #endif
-    case 3:
-      output_string = 'C';
-      #ifdef serial_debug
-      println("Zone: C");
-      #endif
-    case 4:
-      output_string = 'D';
-      #ifdef serial_debug
-      println("Zone: D");
-      #endif
-    case 5:
-      output_string = 'E';
-      #ifdef serial_debug
-      println("Zone: E");
-      #endif
-    case 6:
-      output_string = 'F';
-      #ifdef serial_debug
-      println("Zone: F");
-      #endif
-    case 7:
-      output_string = 'G';
-      #ifdef serial_debug
-      println("Zone: G");
-      #endif
-    case 8:
-      output_string = 'H';
-      #ifdef serial_debug
-      println("Zone: H");
-      #endif
-    case 9:
-      output_string = 'I';
-      #ifdef serial_debug
-      println("Zone: I");
-      #endif
-    case 10:
-      output_string = 'J';
-      #ifdef serial_debug
-      println("Zone: J");
-      #endif
-    case 11:
-      output_string = 'K';
-      #ifdef serial_debug
-      println("Zone: K");
-      #endif
-    case 12:
-      output_string = 'L';
-      #ifdef serial_debug
-      println("Zone: L");
-      #endif
-    case default:
-      output_string = 'N/A';
-      #ifdef serial_debug
-      println("NO DETECTION");
-      #endif
-    }
-    Serial.println(output_string);
+  if (zone_array[1] == 1){
+    Serial.println("A");
+    #ifdef serial_debug
+    Serial.println("Zone: A");
+    #endif
   }
-  
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, A");
+    #endif
+  }
+
+  if (zone_array[2] == 1){
+    Serial.println("B");
+    #ifdef serial_debug
+    Serial.println("Zone: B");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, B");
+    #endif
+  }
+
+  if (zone_array[3] == 1){
+    Serial.println("C");
+    #ifdef serial_debug
+    Serial.println("Zone: C");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, C");
+    #endif
+  }
+
+  if (zone_array[4] == 1){
+    Serial.println("D");
+    #ifdef serial_debug
+    Serial.println("Zone: D");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, D");
+    #endif
+  }
+
+  if (zone_array[5] == 1){
+    Serial.println("E");
+    #ifdef serial_debug
+    Serial.println("Zone: E");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, E");
+    #endif
+  }
+
+  if (zone_array[6] == 1){
+    Serial.println("F");
+    #ifdef serial_debug
+    Serial.println("Zone: F");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, F");
+    #endif
+  }
+
+  if (zone_array[7] == 1){
+    Serial.println("G");
+    #ifdef serial_debug
+    Serial.println("Zone: G");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, G");
+    #endif
+  }
+
+  if (zone_array[8] == 1){
+    Serial.println("H");
+    #ifdef serial_debug
+    Serial.println("Zone: H");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, H");
+    #endif
+  }
+
+  if (zone_array[9] == 1){
+    Serial.println("I");
+    #ifdef serial_debug
+    Serial.println("Zone: I");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, I");
+    #endif
+  }
+
+  if (zone_array[10] == 1){
+    Serial.println("J");
+    #ifdef serial_debug
+    Serial.println("Zone: J");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, J");
+    #endif
+  }
+
+  if (zone_array[11] == 1){
+    Serial.println("K");
+    #ifdef serial_debug
+    Serial.println("Zone: K");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, K");
+    #endif
+  }
+
+  if (zone_array[12] == 1){
+    Serial.println("L");
+    #ifdef serial_debug
+    Serial.println("Zone: L");
+    #endif
+  }
+  else {
+    Serial.println("N/A");
+    #ifdef serial_debug
+    Serial.println("N/A, L");
+    #endif
+  }
 }
 

@@ -49,11 +49,11 @@ import seaborn
 # Position of circle, this comes from the detector circuit
 # Object detection location: will change the location variable (A-F)
 location = 'A'
-location_list = ['A', 'B', 'C', 'D', 'E', 'F', 'AB', 'BC', 'DE', 'EF', 'AD', 'BE', 'CF', 'ABDF', 'BCEF']
+location_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N/A/']
 
 # Detector circle dimensions in inches
-circle_r = 7.5
-circle_d = 15
+circle_r = 4.25
+circle_d = 8.5
 circle_r_pixels = 192
 circle_d_pixels = 384
 
@@ -66,36 +66,32 @@ global_y_pixels = 768
 # Define all position variables for circles in inches
 # Total of 15 Detection Zones
 
-a_circle = [7.5, 22.5]
-b_circle = [20, 22.5]
-c_circle = [32.5, 22.5]
-d_circle = [7.5, 7.5]
-e_circle = [20, 7.5]
-f_circle = [32.5, 7.5]
-
-ab_circle = [13.3, 22.5]
-bc_circle = [26.6, 22.5]
-de_circle = [13.3, 7.5]
-ef_circle = [26.6, 7.5]
-ad_circle = [7.5, 15]
-be_circle = [20, 15]
-cf_circle = [32.5, 15]
-
-abdf_circle = [13.3, 15]
-bcef_circle = [26.6, 15]
+a_circle = [5, 25]
+b_circle = [15, 25]
+c_circle = [25, 25]
+d_circle = [35, 25]
+e_circle = [5, 15]
+f_circle = [15, 15]
+g_circle = [25, 15]
+h_circle = [35, 15]
+i_circle = [5, 25]
+j_circle = [15, 25]
+k_circle = [25, 25]
+l_circle = [35, 25]
 
 # circle_r_pixels = 192
 
 # pixel equivalent of 20: 512
 # pixel equivalent of 22.5: 576
 # pixel equivalent of 32.5: 832
-
+'''
 a_circle_pixels = [192, 576]
 b_circle_pixels = [512, 576]
 c_circle_pixels = [832, 576]
 d_circle_pixels = [192, 192]
 e_circle_pixels = [512, 192]
 f_circle_pixels = [832, 192]
+'''
 
 # ----------------------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------------------
@@ -145,63 +141,55 @@ def get_centerpoint_location_for_plotting(location):
         x_val = f_circle[0]
         y_val = f_circle[1]
         print('---> x_val: ', x_val, " y_val: ", y_val)
-    elif (location == 'AB'):
+    elif (location == 'G'):
         print('Location: ', location)
-        location_label = 'AB'
-        x_val = ab_circle[0]
-        y_val = ab_circle[1]
+        location_label = 'G'
+        x_val = g_circle[0]
+        y_val = g_circle[1]
         print('---> x_val: ', x_val, " y_val: ", y_val)
-    elif (location == 'BC'):
+    elif (location == 'H'):
         print('Location: ', location)
-        location_label = 'BC'
-        x_val = bc_circle[0]
-        y_val = bc_circle[1]
+        location_label = 'H'
+        x_val = h_circle[0]
+        y_val = h_circle[1]
         print('---> x_val: ', x_val, " y_val: ", y_val)
-    elif (location == 'DE'):
+    elif (location == 'I'):
         print('Location: ', location)
-        location_label = 'DE'
-        x_val = de_circle[0]
-        y_val = de_circle[1]
+        location_label = 'I'
+        x_val = i_circle[0]
+        y_val = i_circle[1]
         print('---> x_val: ', x_val, " y_val: ", y_val)
-    elif (location == 'EF'):
+    elif (location == 'J'):
         print('Location: ', location)
-        location_label = 'EF'
-        x_val = ef_circle[0]
-        y_val = ef_circle[1]
+        location_label = 'J'
+        x_val = j_circle[0]
+        y_val = j_circle[1]
         print('---> x_val: ', x_val, " y_val: ", y_val)
-    elif (location == 'AD'):
+    elif (location == 'K'):
         print('Location: ', location)
-        location_label = 'AD'
-        x_val = ad_circle[0]
-        y_val = ad_circle[1]
+        location_label = 'K'
+        x_val = k_circle[0]
+        y_val = k_circle[1]
         print('---> x_val: ', x_val, " y_val: ", y_val)
-    elif (location == 'BE'):
+    elif (location == 'L'):
         print('Location: ', location)
-        location_label = 'BE'
-        x_val = be_circle[0]
-        y_val = be_circle[1]
+        location_label = 'L'
+        x_val = l_circle[0]
+        y_val = l_circle[1]
         print('---> x_val: ', x_val, " y_val: ", y_val)
-    elif (location == 'CF'):
-        print('Location: ', location)
-        location_label = 'CF'
-        x_val = cf_circle[0]
-        y_val = cf_circle[1]
-        print('---> x_val: ', x_val, " y_val: ", y_val)
-    elif (location == 'ABDF'):
-        print('Location: ', location)
-        location_label = 'ABDF'
-        x_val = abdf_circle[0]
-        y_val = abdf_circle[1]
-        print('---> x_val: ', x_val, " y_val: ", y_val)
-    elif (location == 'BCEF'):
-        print('Location: ', location)
-        location_label = 'BCEF'
-        x_val = bcef_circle[0]
-        y_val = bcef_circle[1]
-        print('---> x_val: ', x_val, " y_val: ", y_val)
+    elif (location == 'N/A'):
+        print('NO DETECTIONS')
+        location_label = 'N/A'
+        # x_val = l_circle[0]
+        # y_val = l_circle[1]
+        # print('---> x_val: ', x_val, " y_val: ", y_val)
+
 
     # HAND-OFF TO FUNCTION
-    display_circle_stepthrough(x_val, y_val, circle_r, location_label)
+    #display_circle_stepthrough(x_val, y_val, circle_r, location_label).
+
+    # FOR INDUCTOR ALIGNMENT
+    display_all_locations()
 
 # <--------------------------------------------------------
 
@@ -231,6 +219,7 @@ def display_circle_stepthrough(x, y, circle_radius, label_location):
     #plt.title('Location: ', label_location)
 
     circle = plt.Circle((x, y), linewidth=5, radius=circle_radius, color='red', fill=False)
+
     plt.gcf().gca().add_artist(circle)
 
     plt.show()
@@ -286,15 +275,77 @@ def cont_update_test():
         fig.canvas.flush_events()
 # <--------------------------------------------------------
 
+# -------------------------------------------------------->
+def display_all_locations():
+
+    fig = plt.figure()
+
+    ax = fig.add_subplot(1, 1, 1)
+
+    ax.axis('scaled')
+
+    major_ticks_x = np.arange(0, global_x + 1, 5)
+    minor_ticks_x = np.arange(0, global_x + 1, 1)
+    major_ticks_y = np.arange(0, global_y + 1, 5)
+    minor_ticks_y = np.arange(0, global_y + 1, 1)
+
+    ax.set_xticks(major_ticks_x)
+    ax.set_xticks(minor_ticks_x, minor=True)
+    ax.set_yticks(major_ticks_y)
+    ax.set_yticks(minor_ticks_y, minor=True)
+
+    ax.grid(which='both')
+    ax.grid(which='minor', alpha=0.2)
+    ax.grid(which='major', alpha=0.5)
+
+    # plt.title('Location: ', label_location)
+
+    circle_a = plt.Circle((a_circle[0], a_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_b = plt.Circle((b_circle[0], b_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_c = plt.Circle((c_circle[0], c_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_d = plt.Circle((d_circle[0], d_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_e = plt.Circle((e_circle[0], e_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_f = plt.Circle((f_circle[0], f_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_g = plt.Circle((g_circle[0], g_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_h = plt.Circle((h_circle[0], h_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_i = plt.Circle((i_circle[0], i_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_j = plt.Circle((j_circle[0], j_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_k = plt.Circle((k_circle[0], k_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_l = plt.Circle((l_circle[0], l_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+
+    plt.gcf().gca().add_artist(circle_a)
+    plt.gcf().gca().add_artist(circle_b)
+    plt.gcf().gca().add_artist(circle_c)
+    plt.gcf().gca().add_artist(circle_d)
+    plt.gcf().gca().add_artist(circle_e)
+    plt.gcf().gca().add_artist(circle_f)
+    plt.gcf().gca().add_artist(circle_g)
+    plt.gcf().gca().add_artist(circle_h)
+    plt.gcf().gca().add_artist(circle_i)
+    plt.gcf().gca().add_artist(circle_j)
+    plt.gcf().gca().add_artist(circle_k)
+    plt.gcf().gca().add_artist(circle_l)
+
+    plt.show()
+
+
+# <--------------------------------------------------------
+
+
 # END OF FUNCTION DEFINITIONS
 # ----------------------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------------------
 # BEGINNING OF MAIN
 # GOAL: To create a single figure that continuously updates with new data
 
+display_all_locations()
+
+'''
 for item in location_list:
     get_centerpoint_location_for_plotting(item)
     #time.sleep(5)
+'''
+
 '''
 cont_update_test()
 '''
