@@ -1,11 +1,14 @@
 ###########################################################################################
 ###
-### obj_detection_overlay.py
+### program: obj_detection_overlay.py
 ###
-### nathan schram
+### author: n.schram
 ###
-### the purpose of this program is to plot a circle in red of diameter 15".
+### date: 2018-APRL-21
+###
+### description: the purpose of this program is to plot a circle in red of diameter 15".
 ### the function will take the x, y location information for the center of the circle.
+###
 ###########################################################################################
 
 # 40"x30" inner dimensions
@@ -19,6 +22,19 @@
 # |     |     |     | 15"  |
 # |D    |E    |F    |      |
 # -------------------     ---
+
+# |----------- 40" -------|
+# |-10"-|
+# ------------------------- -------
+# |  1  |  2  |  3  |  4  |  10" |
+# |  A  |  B  |  C  |  D  |   |  |
+# ------------------------- ---- |
+# |  5  |  6  |  7  |  8  |      |
+# |  E  |  F  |  G  |  H  |     30"
+# -------------------------      |
+# |  9  | 10  | 11  | 12  |      |
+# |  I  |  J  |  K  |  L  |      |
+# -------------------------     ---
 
 # Projector outputs the image size in pixels: 1024x768
 
