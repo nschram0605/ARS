@@ -42,6 +42,9 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 #from matplotlib.ticker import MultipleLocator, FormatStrFormatter
+import serial
+import time
+import syslog
 
 import scipy
 import seaborn
@@ -74,10 +77,10 @@ e_circle = [5, 15]
 f_circle = [15, 15]
 g_circle = [25, 15]
 h_circle = [35, 15]
-i_circle = [5, 25]
-j_circle = [15, 25]
-k_circle = [25, 25]
-l_circle = [35, 25]
+i_circle = [5, 5]
+j_circle = [15, 5]
+k_circle = [25, 5]
+l_circle = [35, 5]
 
 # circle_r_pixels = 192
 
@@ -193,6 +196,22 @@ def get_centerpoint_location_for_plotting(location):
 
 # <--------------------------------------------------------
 
+# -------------------------------------------------------->
+def setup_serial_port():
+
+    port = '/dev/tty50'
+    serial_interface = serial.Serial(port, 9600, timeout=10)
+    serial_interface.flush()
+
+# <--------------------------------------------------------
+
+# -------------------------------------------------------->
+def display_serial_data():
+    serial_char = serial_interface.readline()
+    print(serial_char)
+
+# <--------------------------------------------------------
+
 # --------------------------------------------------------->
 def display_circle_stepthrough(x, y, circle_radius, label_location):
 
@@ -300,18 +319,18 @@ def display_all_locations():
 
     # plt.title('Location: ', label_location)
 
-    circle_a = plt.Circle((a_circle[0], a_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_b = plt.Circle((b_circle[0], b_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_c = plt.Circle((c_circle[0], c_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_d = plt.Circle((d_circle[0], d_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_e = plt.Circle((e_circle[0], e_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_f = plt.Circle((f_circle[0], f_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_g = plt.Circle((g_circle[0], g_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_h = plt.Circle((h_circle[0], h_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_i = plt.Circle((i_circle[0], i_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_j = plt.Circle((j_circle[0], j_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_k = plt.Circle((k_circle[0], k_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
-    circle_l = plt.Circle((l_circle[0], l_circle(1)), linewidth=5, radius=circle_radius, color='red', fill=False)
+    circle_a = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_b = plt.Circle((b_circle[0], b_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_c = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_d = plt.Circle((d_circle[0], d_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_e = plt.Circle((e_circle[0], e_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_f = plt.Circle((f_circle[0], f_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_g = plt.Circle((g_circle[0], g_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_h = plt.Circle((h_circle[0], h_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_i = plt.Circle((i_circle[0], i_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_j = plt.Circle((j_circle[0], j_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_k = plt.Circle((k_circle[0], k_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    circle_l = plt.Circle((l_circle[0], l_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
 
     plt.gcf().gca().add_artist(circle_a)
     plt.gcf().gca().add_artist(circle_b)
