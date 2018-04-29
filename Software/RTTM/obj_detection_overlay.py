@@ -308,7 +308,7 @@ def display_circle_stepthrough(x, y, circle_radius, label_location):
     ax.grid(which='minor', alpha=0.2)
     ax.grid(which='major', alpha=0.5)
 
-    #plt.title('Location: ', label_location)
+    plt.title(label_location)
 
     if x==0 and y==0:
         plt.show()
