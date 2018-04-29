@@ -197,25 +197,23 @@ def get_centerpoint_location_for_plotting(location):
 # <--------------------------------------------------------
 
 # -------------------------------------------------------->
-def setup_serial_port():
+def serial_port_config_and_print():
 
-    port = '/dev/tty50'
-    serial_interface = serial.Serial(port, 9600, timeout=10)
+    port = '/dev/ttyACM1'
+    serial_interface = serial.Serial(port, 115200, timeout=50)
+    serial_data = serial_interface
+    #serial_interface.close()
+    print("[Arduino Mega] :", serial_interface.readline())
     serial_interface.flush()
 
 # <--------------------------------------------------------
 
-# -------------------------------------------------------->
-def display_serial_data():
-    serial_char = serial_interface.readline()
-    print(serial_char)
-
-# <--------------------------------------------------------
 
 # --------------------------------------------------------->
 def display_circle_stepthrough(x, y, circle_radius, label_location):
 
-    fig = plt.figure()
+    #fig = plt.figure()setup_serial_port()
+
 
     ax = fig.add_subplot(1, 1, 1)
 
@@ -357,7 +355,14 @@ def display_all_locations():
 # BEGINNING OF MAIN
 # GOAL: To create a single figure that continuously updates with new data
 
+
+
+while 1:
+    serial_port_config_and_print()
+
+'''
 display_all_locations()
+'''
 
 '''
 for item in location_list:
