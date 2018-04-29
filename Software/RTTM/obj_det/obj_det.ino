@@ -66,7 +66,7 @@ void clear_averaged_values(void);
  * @date 2018-APRL-27
  */
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   //Initialization
   for (i=1; i<global_num_inductors+1; i++){
