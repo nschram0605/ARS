@@ -183,28 +183,104 @@ def get_centerpoint_location_for_plotting(location):
     elif (location == 'N/A'):
         print('NO DETECTIONS')
         location_label = 'N/A'
-        # x_val = l_circle[0]
-        # y_val = l_circle[1]
-        # print('---> x_val: ', x_val, " y_val: ", y_val)
+        x_val = 0
+        y_val = 0
+        print('---> x_val: ', x_val, " y_val: ", y_val)
 
 
     # HAND-OFF TO FUNCTION
-    #display_circle_stepthrough(x_val, y_val, circle_r, location_label).
+    display_circle_stepthrough(x_val, y_val, circle_r, location_label)
 
     # FOR INDUCTOR ALIGNMENT
-    display_all_locations()
+    #display_all_locations()
 
 # <--------------------------------------------------------
 
 # -------------------------------------------------------->
-def serial_port_config_and_print():
+def get_serial_data():
 
     port = '/dev/ttyACM1'
     serial_interface = serial.Serial(port, 115200, timeout=50)
-    serial_data = serial_interface
+    serial_data = str(serial_interface.readline())
     #serial_interface.close()
-    print("[Arduino Mega] :", serial_interface.readline())
+    #print("[Arduino Mega] :", serial_data)
+    print(serial_data)
     serial_interface.flush()
+    return serial_data
+
+# <--------------------------------------------------------
+
+
+# -------------------------------------------------------->
+def parse_serial_data(serial_string):
+    prefix = "b'"
+    postfix = '\\r\\n'
+    combined = prefix + serial_string + postfix
+    parsed_string = 'N/A'
+    '''
+    print("prefix: ", prefix)
+    print("postfix: ", postfix)
+    print("combined: ", combined)
+    '''
+    #rint(serial_string)
+    #print("serial_string: ", serial_string)
+    #print("combined str : ", combined)
+
+    if (serial_string == "b'A\\r\\n'"):
+        parsed_string = 'A'
+        #print("A")
+
+    if (serial_string == "b'B\\r\\n'"):
+        parsed_string = 'B'
+        # print("B")
+
+    if (serial_string == "b'C\\r\\n'"):
+        parsed_string = 'C'
+        # print("C")
+
+    if (serial_string == "b'D\\r\\n'"):
+        parsed_string = 'D'
+        # print("D")
+
+    if (serial_string == "b'E\\r\\n'"):
+        parsed_string = 'E'
+        # print("E")
+
+    if (serial_string == "b'F\\r\\n'"):
+        parsed_string = 'F'
+        # print("F")
+
+    if (serial_string == "b'G\\r\\n'"):
+        parsed_string = 'G'
+        # print("G")
+
+    if (serial_string == "b'H\\r\\n'"):
+        parsed_string = 'H'
+        # print("H")
+
+    if (serial_string == "b'I\\r\\n'"):
+        parsed_string = 'I'
+        # print("I")
+
+    if (serial_string == "b'J\\r\\n'"):
+        parsed_string = 'J'
+        # print("J")
+
+    if (serial_string == "b'K\\r\\n'"):
+        parsed_string = 'K'
+        # print("K")
+
+    if (serial_string == "b'L\\r\\n'"):
+        parsed_string = 'L'
+        # print("L")
+
+    if (serial_string == "b'N/A\\r\\n'"):
+        parsed_string = 'N/A'
+        #print("N/A")
+
+    #print(parsed_string)
+
+    return parsed_string
 
 # <--------------------------------------------------------
 
@@ -212,8 +288,7 @@ def serial_port_config_and_print():
 # --------------------------------------------------------->
 def display_circle_stepthrough(x, y, circle_radius, label_location):
 
-    #fig = plt.figure()setup_serial_port()
-
+    fig = plt.figure()
 
     ax = fig.add_subplot(1, 1, 1)
 
@@ -235,11 +310,13 @@ def display_circle_stepthrough(x, y, circle_radius, label_location):
 
     #plt.title('Location: ', label_location)
 
-    circle = plt.Circle((x, y), linewidth=5, radius=circle_radius, color='red', fill=False)
+    if x==0 and y==0:
+        plt.show()
+    else:
+        circle = plt.Circle((x, y), linewidth=5, radius=circle_radius, color='red', fill=False)
+        plt.gcf().gca().add_artist(circle)
+        plt.show()
 
-    plt.gcf().gca().add_artist(circle)
-
-    plt.show()
 # <--------------------------------------------------------
 
 # --------------------------------------------------------->
@@ -358,7 +435,10 @@ def display_all_locations():
 
 
 while 1:
-    serial_port_config_and_print()
+    zone = parse_serial_data(get_serial_data())
+    print(zone)
+    get_centerpoint_location_for_plotting(zone)
+
 
 '''
 display_all_locations()

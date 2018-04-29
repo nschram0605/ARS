@@ -48,7 +48,7 @@ long int averaged_ind[13];
 //------------------------------------------------
 //Comment/Uncomment for Serial Port Debug Printing
 //#define serial_debug 1
-//#define serial_debug_
+//#define serial_debug 1
 //#define zone_debug 1
 //------------------------------------------------
 
