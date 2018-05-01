@@ -6,7 +6,7 @@
 ###
 ### date: 2018-APRL-21
 ###
-### description: the purpose of this program is to plot a circle in red of diameter 15".
+### description: the purpose of this program is to plot a circle in red of diameter 8.5".
 ### the function will take the x, y location information for the center of the circle.
 ###
 ###########################################################################################
@@ -51,6 +51,7 @@ import seaborn
 
 # Position of circle, this comes from the detector circuit
 # Object detection location: will change the location variable (A-F)
+# Testing...
 location = 'A'
 location_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N/A/']
 
@@ -186,13 +187,6 @@ def get_centerpoint_location_for_plotting(location):
         x_val = 0
         y_val = 0
         print('---> x_val: ', x_val, " y_val: ", y_val)
-
-
-    # HAND-OFF TO FUNCTION
-    display_circle_stepthrough(x_val, y_val, circle_r, location_label)
-
-    # FOR INDUCTOR ALIGNMENT
-    #display_all_locations()
 
 # <--------------------------------------------------------
 
@@ -352,21 +346,16 @@ def display_circle_cont(x, y, circle_radius, label_location):
 # <--------------------------------------------------------
 
 # -------------------------------------------------------->
-def cont_update_test():
-    x = np.linspace(0, 6 * np.pi, 100)
-    y = np.sin(x)
+def update_plot():
 
-    # You probably won't need this if you're embedding things in a tkinter plot...
-    plt.ion()
+    #Randy, put your working code here, leave everything
+    #else alone.  When your done, on Wednesday after
+    #class we will test it out at my house with the
+    #arduino.  Stay on your branch and we will address the
+    #merge issue on Wednesday. Delete comment block when
+    #complete.
+    #--N
 
-    fig = plt.figure()
-    ax = fig.add_subplot(111)
-    line1, = ax.plot(x, y, 'r-')  # Returns a tuple of line objects, thus the comma
-
-    for phase in np.linspace(0, 10 * np.pi, 500):
-        line1.set_ydata(np.sin(x + phase))
-        fig.canvas.draw()
-        fig.canvas.flush_events()
 # <--------------------------------------------------------
 
 # -------------------------------------------------------->
@@ -435,10 +424,13 @@ def display_all_locations():
 
 
 while 1:
+
     zone = parse_serial_data(get_serial_data())
     print(zone)
     get_centerpoint_location_for_plotting(zone)
-
+    display_circle_stepthrough(x_val, y_val, circle_r, location_label)
+    #Randy, here comment out display_circle_stepthrough(params) and in its place, enable the next line
+    #update_plot()
 
 '''
 display_all_locations()
