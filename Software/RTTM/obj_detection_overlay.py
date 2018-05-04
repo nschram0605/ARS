@@ -38,13 +38,13 @@
 
 # Projector outputs the image size in pixels: 1024x768
 
-import time
 import numpy as np
 import matplotlib.pyplot as plt
 #from matplotlib.ticker import MultipleLocator, FormatStrFormatter
 import serial
 import time
-import syslog
+#import syslog
+
 
 import scipy
 import seaborn
@@ -188,7 +188,7 @@ def get_centerpoint_location_for_plotting(location):
         y_val = 0
         print('---> x_val: ', x_val, " y_val: ", y_val)
 
-    #display_circle_cont(x_val, y_val, circle_r, location_label)
+    display_circle_cont(x_val, y_val, circle_r, location_label)
     #display_circle_stepthrough(x_val, y_val, circle_r, location_label)
     #update_plot(x_val, y_val, circle_r, location_label)
 
@@ -197,8 +197,10 @@ def get_centerpoint_location_for_plotting(location):
 # -------------------------------------------------------->
 def get_serial_data():
 
-    port = '/dev/ttyACM0'
-    serial_interface = serial.Serial(port, 115200, timeout=50)
+    nix_port = '/dev/ttyACM0'
+    #win_port = '/dev/tty.usbserial'
+    #win_port = 'com3'
+    serial_interface = serial.Serial(nix_port, 115200, timeout=50)
     serial_data = str(serial_interface.readline())
     #serial_interface.close()
     #print("[Arduino Mega] :", serial_data)
@@ -346,26 +348,28 @@ def display_circle_cont(x, y, circle_radius, label_location):
     ax.set_yticks(major_ticks_y)
     ax.set_yticks(minor_ticks_y, minor=True)
 
-    #ax.grid(which='both')
-    #ax.grid(which='minor', alpha=0.2)
-    #ax.grid(which='major', alpha=0.5)
+    ax.grid(which='both')
+    ax.grid(which='minor', alpha=0.2)
+    ax.grid(which='major', alpha=0.5)
 
 
     if label_location == 'A':
         #plt.cla()
         circle_a = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
         plt.gcf().gca().add_artist(circle_a)
-        plt.show()
-        plt.cla()
-
-    if label_location == 'N/A':
+        #plt.show()
         #plt.cla()
-        plt.show()
-        plt.cla()
+
+    #if label_location == 'N/A':
+        #plt.cla()
+        #plt.show()
+        #plt.cla()
 
     #circle = plt.Circle((x, y), linewidth=5, radius=circle_radius, color='red', fill=False)
     #plt.gcf().gca().add_artist(circle)
-
+    plt.figure(figsize=(40, 30))
+    plt.tight_layout()
+    #plt.subplots_adjust(left=1, right=2, top=2, bottom=1)
     plt.show()
 # <--------------------------------------------------------
 
@@ -535,33 +539,20 @@ def display_all_locations():
 # BEGINNING OF MAIN
 # GOAL: To create a single figure that continuously updates with new data
 
-fig = plt.gcf()
-fig.show()
-fig.canvas.draw()
+#fig = plt.gcf()
+#fig.show()
+#fig.canvas.draw(
+
+zone = 'A'
 
 while 1:
 
-    zone = parse_serial_data(get_serial_data())
-    print(zone)
+    #zone = parse_serial_data(get_serial_data())
+    #print(zone)
     get_centerpoint_location_for_plotting(zone)
-    fig.canvas.draw()
 
-    #Randy, here comment out display_circle_stepthrough(params) and in its place, enable the next line
-    #update_plot(x_val, y_val, circle_r, location_label)
 
-'''
-display_all_locations()
-'''
 
-'''
-for item in location_list:
-    get_centerpoint_location_for_plotting(item)
-    #time.sleep(5)
-'''
-
-'''
-cont_update_test()
-'''
 
 # END OF MAIN
 # ----------------------------------------------------------------------------------------------------------------------
