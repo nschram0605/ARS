@@ -53,7 +53,7 @@ import seaborn
 # Object detection location: will change the location variable (A-F)
 # Testing...
 #location = 'A'
-#location_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N/A/']
+location_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N/A/']
 #location_list = ['A', 'B', 'C']
 
 # Detector circle dimensions in inches
@@ -285,6 +285,9 @@ def parse_serial_data(serial_string):
 
     #print(parsed_string)
 
+    previous_zone = current_zone
+    current_zone = parsed_string
+
     return parsed_string
 
 # <--------------------------------------------------------
@@ -338,7 +341,8 @@ def setup_plot():
 
     plt.ion()
 
-    fig = plt.figure(figsize=(40, 30), frameon=False, dpi=500)
+    #fig = plt.figure(figsize=(40, 30), frameon=False, dpi=500)
+    fig = plt.figure(figsize=(4, 3), frameon=False, dpi=500)
 
     ax = fig.add_subplot(1, 1, 1)
     # ax = fig.add_subplot(111)
@@ -364,6 +368,9 @@ def setup_plot():
     ax.spines['right'].set_visible(False)
     ax.spines['left'].set_visible(False)
 
+    fig.patch.set_alpha(0.)
+    ax.patch.set_visible(False)
+
 
 def display_circle_cont(x, y, circle_radius, label_location):
 
@@ -374,41 +381,44 @@ def display_circle_cont(x, y, circle_radius, label_location):
     if label_location == 'C':
         circle = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     if label_location == 'D':
-        circle = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+        circle = plt.Circle((d_circle[0], d_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     if label_location == 'E':
-        circle = plt.Circle((b_circle[0], b_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+        circle = plt.Circle((e_circle[0], e_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     if label_location == 'F':
-        circle = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+        circle = plt.Circle((f_circle[0], f_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     if label_location == 'G':
-        circle = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+        circle = plt.Circle((g_circle[0], g_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     if label_location == 'H':
-        circle = plt.Circle((b_circle[0], b_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+        circle = plt.Circle((h_circle[0], h_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     if label_location == 'I':
-        circle = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+        circle = plt.Circle((i_circle[0], i_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     if label_location == 'J':
-        circle = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+        circle = plt.Circle((j_circle[0], j_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     if label_location == 'K':
-        circle = plt.Circle((b_circle[0], b_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+        circle = plt.Circle((k_circle[0], k_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     if label_location == 'L':
-        circle = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+        circle = plt.Circle((l_circle[0], l_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
     #elif label_location == 'N/A':
         #circle = plt.Circle(0, 0, linewidth=5, radius=circle_r, color='red', fill=False)
-
 
     #circle = plt.Circle((x, y), linewidth=5, radius=circle_radius, color='red', fill=False)
     #plt.gcf().gca().add_artist(circle)
     #plt.figure(figsize=(40, 30))
     #plt.cla() #DOESNT WORK
 
+
     if label_location == 'N/A':
         plt.tight_layout()
         plt.show()
-        plt.pause(1)
+        plt.pause(2)
+
     if label_location != 'N/A':
+        #if current_zone != previous_zone: #this means the detection area has changed
         plt.gcf().gca().add_artist(circle)
         plt.tight_layout()
+        #plt.plot(alpha=0.7)
         plt.show()
-        plt.pause(1)
+        plt.pause(2)
 
 # <--------------------------------------------------------
 
@@ -419,7 +429,7 @@ def display_all_locations():
 
     ax = fig.add_subplot(1, 1, 1)
 
-    ax.axis('scaled')
+    #ax.axis('scaled')
 
     major_ticks_x = np.arange(0, global_x + 1, 5)
     minor_ticks_x = np.arange(0, global_x + 1, 1)
@@ -486,16 +496,22 @@ def display_all_locations():
 previous_zone = 'N/A'
 current_zone = 'N/A'
 
+#Leaving setup plot here will overlay the circles in one graph but I can't clear them
+#setup_plot()
+
 while 1:
 
-    setup_plot()
-    zone = parse_serial_data(get_serial_data())
-    print(zone)
-    get_centerpoint_location_for_plotting(zone)
-    #time.sleep(1)
+    for item in location_list:
 
+        #Leaving setup_plot here closes and opens a new plot every time a detection occurs
+        setup_plot()
 
+        #ENABLE/DISALBE THIS FOR SERIAL CONNECTIVITY TO THE OBJ_DETECTION PCB
+        #zone = parse_serial_data(get_serial_data())
+        #print(zone)
 
+        get_centerpoint_location_for_plotting(item)
+        #time.sleep(1)
 
 
 # END OF MAIN
