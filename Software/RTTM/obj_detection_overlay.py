@@ -52,8 +52,9 @@ import seaborn
 # Position of circle, this comes from the detector circuit
 # Object detection location: will change the location variable (A-F)
 # Testing...
-location = 'A'
-location_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N/A/']
+#location = 'A'
+#location_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N/A/']
+#location_list = ['A', 'B', 'C']
 
 # Detector circle dimensions in inches
 circle_r = 4.25
@@ -96,6 +97,9 @@ d_circle_pixels = [192, 192]
 e_circle_pixels = [512, 192]
 f_circle_pixels = [832, 192]
 '''
+
+global current_zone
+global previous_zone
 
 # ----------------------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------------------
@@ -200,7 +204,7 @@ def get_serial_data():
     nix_port = '/dev/ttyACM0'
     #win_port = '/dev/tty.usbserial'
     #win_port = 'com3'
-    serial_interface = serial.Serial(nix_port, 115200, timeout=50)
+    serial_interface = serial.Serial(nix_port, 115200, timeout=100)
     serial_data = str(serial_interface.readline())
     #serial_interface.close()
     #print("[Arduino Mega] :", serial_data)
@@ -213,6 +217,7 @@ def get_serial_data():
 
 # -------------------------------------------------------->
 def parse_serial_data(serial_string):
+
     prefix = "b'"
     postfix = '\\r\\n'
     combined = prefix + serial_string + postfix
@@ -327,14 +332,16 @@ def display_circle_stepthrough(x, y, circle_radius, label_location):
 # <--------------------------------------------------------
 
 # --------------------------------------------------------->
-def display_circle_cont(x, y, circle_radius, label_location):
 
-    #plt.ion()
 
-    fig = plt.figure()
+def setup_plot():
+
+    plt.ion()
+
+    fig = plt.figure(figsize=(40, 30), frameon=False, dpi=500)
 
     ax = fig.add_subplot(1, 1, 1)
-    #ax = fig.add_subplot(111)
+    # ax = fig.add_subplot(111)
 
     ax.axis('scaled')
 
@@ -352,127 +359,56 @@ def display_circle_cont(x, y, circle_radius, label_location):
     ax.grid(which='minor', alpha=0.2)
     ax.grid(which='major', alpha=0.5)
 
+    ax.spines['top'].set_visible(False)
+    ax.spines['bottom'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+
+
+def display_circle_cont(x, y, circle_radius, label_location):
 
     if label_location == 'A':
-        #plt.cla()
-        circle_a = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_a)
-        #plt.show()
-        #plt.cla()
+        circle = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'B':
+        circle = plt.Circle((b_circle[0], b_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'C':
+        circle = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'D':
+        circle = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'E':
+        circle = plt.Circle((b_circle[0], b_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'F':
+        circle = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'G':
+        circle = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'H':
+        circle = plt.Circle((b_circle[0], b_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'I':
+        circle = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'J':
+        circle = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'K':
+        circle = plt.Circle((b_circle[0], b_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    if label_location == 'L':
+        circle = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
+    #elif label_location == 'N/A':
+        #circle = plt.Circle(0, 0, linewidth=5, radius=circle_r, color='red', fill=False)
 
-    #if label_location == 'N/A':
-        #plt.cla()
-        #plt.show()
-        #plt.cla()
 
     #circle = plt.Circle((x, y), linewidth=5, radius=circle_radius, color='red', fill=False)
     #plt.gcf().gca().add_artist(circle)
-    plt.figure(figsize=(40, 30))
-    plt.tight_layout()
-    #plt.subplots_adjust(left=1, right=2, top=2, bottom=1)
-    plt.show()
-# <--------------------------------------------------------
+    #plt.figure(figsize=(40, 30))
+    #plt.cla() #DOESNT WORK
 
-# -------------------------------------------------------->
-def update_plot(x, y, circle_r, label_location):
-
-
-    '''
-    if label_location == 'A':
-        #plt.cla()
-        circle_a = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_a)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'B':
-        #plt.cla()
-        circle_b = plt.Circle((b_circle[0], b_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_b)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'C':
-        #plt.cla()
-        circle_c = plt.Circle((c_circle[0], c_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_c)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'D':
-        #plt.cla()
-        circle_d = plt.Circle((d_circle[0], d_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_d)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'E':
-        #plt.cla()
-        circle_e = plt.Circle((e_circle[0], e_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_e)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'F':
-        #plt.cla()
-        circle_f = plt.Circle((f_circle[0], f_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_f)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'G':
-        #plt.cla()
-        circle_g = plt.Circle((g_circle[0], g_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_g)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'H':
-        #plt.cla()
-        circle_h = plt.Circle((h_circle[0], h_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_h)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'I':
-        plt.cla()
-        circle_i = plt.Circle((i_circle[0], i_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_i)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'J':
-        #plt.cla()
-        circle_j = plt.Circle((j_circle[0], j_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_j)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'K':
-        #plt.cla()
-        circle_k = plt.Circle((k_circle[0], k_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_k)
-        #plt.pause(1)
-        #plt.show()
-
-    if label_location == 'L':
-        #plt.cla()
-        circle_l = plt.Circle((l_circle[0], l_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-        plt.gcf().gca().add_artist(circle_l)
-        #plt.pause(1)
-        #plt.show()
-
-    #if label_location == 'N/A':
-    #    circle_a = plt.Circle((a_circle[0], a_circle[1]), linewidth=5, radius=circle_r, color='red', fill=False)
-    #    plt.gcf().gca().add_artist(circle_a)
-    #    plt.pause(1)
-    #    plt.show()
-    #    plt.cla()
-
-    #plt.show()
-    '''
-    
-
+    if label_location == 'N/A':
+        plt.tight_layout()
+        plt.show()
+        plt.pause(1)
+    if label_location != 'N/A':
+        plt.gcf().gca().add_artist(circle)
+        plt.tight_layout()
+        plt.show()
+        plt.pause(1)
 
 # <--------------------------------------------------------
 
@@ -543,13 +479,21 @@ def display_all_locations():
 #fig.show()
 #fig.canvas.draw(
 
-zone = 'A'
+#zone = 'A'
+
+#setup_plot()
+
+previous_zone = 'N/A'
+current_zone = 'N/A'
 
 while 1:
 
-    #zone = parse_serial_data(get_serial_data())
-    #print(zone)
+    setup_plot()
+    zone = parse_serial_data(get_serial_data())
+    print(zone)
     get_centerpoint_location_for_plotting(zone)
+    #time.sleep(1)
+
 
 
 
