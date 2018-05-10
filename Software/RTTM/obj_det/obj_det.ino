@@ -16,18 +16,31 @@
 //Constants
 //Inductors (x12)
 //Each inductor number correlates to a terminal location on the purple PCB
-const int inductor_1_pin = A1;
-const int inductor_2_pin = A2;
-const int inductor_3_pin = A3;
-const int inductor_4_pin = A4;
-const int inductor_5_pin = A5;
-const int inductor_6_pin = A6;
-const int inductor_7_pin = A7;
-const int inductor_8_pin = A8;
-const int inductor_9_pin = A9;
-const int inductor_10_pin = A10;
-const int inductor_11_pin = A11;
-const int inductor_12_pin = A12;
+//const int inductor_1_pin = A1;
+//const int inductor_2_pin = A2;
+//const int inductor_3_pin = A3;
+//const int inductor_4_pin = A4;
+//const int inductor_5_pin = A5;
+//const int inductor_6_pin = A6;
+//const int inductor_7_pin = A7;
+//const int inductor_8_pin = A8;
+//const int inductor_9_pin = A9;
+//const int inductor_10_pin = A10;
+//const int inductor_11_pin = A11;
+//const int inductor_12_pin = A12;
+
+const int inductor_12_pin = A1;
+const int inductor_11_pin = A2;
+const int inductor_10_pin = A3;
+const int inductor_9_pin = A4;
+const int inductor_8_pin = A5;
+const int inductor_7_pin = A6;
+const int inductor_6_pin = A7;
+const int inductor_5_pin = A8;
+const int inductor_4_pin = A9;
+const int inductor_3_pin = A10;
+const int inductor_2_pin = A11;
+const int inductor_1_pin = A12;
 
 //Counters
 int i = 0;
@@ -41,15 +54,15 @@ bool zone_array[13];
 
 int global_detection_threshold = 875;
 int global_num_inductors = 12;
-int global_count = 100;
+int global_count = 1000;
 long int averaged_ind[13];
 
 
 //------------------------------------------------
 //Comment/Uncomment for Serial Port Debug Printing
-//#define serial_debug 1
-//#define serial_debug 1
-//#define zone_debug 1
+#define serial_debug 1
+#define serial_debug 1
+#define zone_debug 1
 //------------------------------------------------
 
 //Function Prototypes
@@ -85,7 +98,9 @@ void setup() {
  * @date 2018-APRL-27
  */
 void loop() {
-  
+
+  //calibration(1);
+
   if (j < global_count){
     //Read all inductor values and average
     read_inductors();
@@ -103,13 +118,14 @@ void loop() {
   }
   
   //Output serial stream to python program
-  serial_output();
+  //serial_output();
 
   //10ms delay
-  delay(1000);
+  //delay(5);
 
   //j is the main loop counter used for averaging
   j++;
+
 }
 
 /**
@@ -121,7 +137,6 @@ void loop() {
  * @date 2018-APRL-27
  */
 void read_inductors(void){
-
 
   ind_array[12] = analogRead(inductor_12_pin);
   ind_array[11] = analogRead(inductor_11_pin);
@@ -211,26 +226,27 @@ void determine_detection_zone(void){
 
 //Determine which zones are detecting
 
-  for (i = 1; i<global_num_inductors+1; i++){
+  i = 1; //Edit this to test inductors individually
+  //for (i = 1; i<global_num_inductors+1; i++){
 
-    #ifdef zone_debug
+    //#ifdef zone_debug
     Serial.print("ind_array: ");
     Serial.print(i);
     Serial.print(" = ");
     Serial.println(ind_array[i]);
-    #endif
+    //#endif
     if (averaged_ind[i] >= global_detection_threshold){
       zone_array[i] = 1;
-      #ifdef zone_debug
+      //#ifdef zone_debug
       Serial.print("zone_array: ");
       Serial.print(i);
       Serial.println(" = 1");
-      #endif
+      //#endif
     }
     else {
       zone_array[i] = 0;
     }
-  }
+  //}
 }
 
 /**
@@ -397,6 +413,84 @@ void serial_output(void){
     #ifdef serial_debug
     Serial.println("N/A, L");
     #endif
+  }
+}
+
+void calibration(int i){
+
+  switch (i){
+    case 1:
+      ind_array[1] = analogRead(inductor_1_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[1]);
+    case 2:
+      ind_array[2] = analogRead(inductor_2_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[2]);
+    case 3:
+      ind_array[3] = analogRead(inductor_3_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[3]);
+    case 4:
+      ind_array[4] = analogRead(inductor_4_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[4]);
+    case 5:
+      ind_array[5] = analogRead(inductor_5_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[5]);
+    case 6:
+      ind_array[6] = analogRead(inductor_6_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[6]);
+    case 7:
+      ind_array[7] = analogRead(inductor_7_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[7]);
+    case 8:
+      ind_array[8] = analogRead(inductor_8_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[8]);
+    case 9:
+      ind_array[9] = analogRead(inductor_9_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[9]);
+    case 10:
+      ind_array[10] = analogRead(inductor_10_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[10]);
+    case 11:
+      ind_array[11] = analogRead(inductor_11_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[11]);
+    case 12:
+      ind_array[12] = analogRead(inductor_12_pin);
+      Serial.print("ind_array: ");
+      Serial.print(i);
+      Serial.print(" = ");
+      Serial.println(ind_array[12]);
   }
 }
 
